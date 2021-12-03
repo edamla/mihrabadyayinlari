@@ -5,7 +5,7 @@ comments: false
 ---
 
 <h5>Adres:</h5>
-<div>Genç Damla,
+<div>Mihrabad Yayınları,
 Prof. Kazım İsmail Gürkan Cad. No:8 Kat: 2
 Cagaloglu - Fatih, 34110 İstanbul</div>
 <h5>Telefon:</h5>

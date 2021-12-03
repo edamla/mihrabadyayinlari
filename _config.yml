@@ -1,7 +1,7 @@
 # Site
-name: 'Genç Damla'
+name: 'Mihrabad Yayınları'
 language: "tr"
-description: 'Çocuklara Okumayı Sevdiren Yayınevi...'
+description: ''
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon/favicon.ico'
 baseurl: ''
