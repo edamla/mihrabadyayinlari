@@ -59,27 +59,14 @@ layout: default
             
             <!-- Article -->
 			<article class="article-post">                
-			{{ content }}                
+			{{ author.content }}                
 			</article>
 			
            
 			<h4 class="font-weight-bold spanborder"><span>{{author.title}} Kitapları</span></h4>
 			<div class="row mb-3">
-				{% assign bookarray = "" | split: ',' %}
-							{% for book in site.books %}
-								{%for bookauthor in author.key %}
-								<!-- kitapların içinde bu kitabın yazarlarını filtreledik. -->
-									{% if book.authors contains bookauthor %}
-									<!-- çıktı olarak gelen kitapları bir array içine aldık -->
-										{% assign bookarray = bookarray | push: book %}
-									{%endif %}
-								{% endfor %}
-							{% endfor %}
-
-							<!-- arayyi uniqleştirdik aynı kitap 2 kere çıkmasın diye. -->
-							{% assign bookarray = bookarray | uniq %}
-							{% assign books = bookarray %}
-							{% include product-slider.html %}
+				{% assign books = site.books | where_exp:"book", "book.authors contains author.key" %}
+				{% include product-slider.html %}
 			</div>
 
 			 <!-- Mailchimp Subscribe Form -->
