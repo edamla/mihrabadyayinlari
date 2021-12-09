@@ -9,7 +9,7 @@ featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
 “Üstün İnanç’ın Tiyatro Eserleri” paneli, Türkiye Yazarlar Birliği İstanbul Şubesi’nde gerçekleşti. Toplantıya yazar Üstün İnanç’ın yarısıra tiyatro sanatçıları Caner Bilginer, Fulya Bilginer ve Erdal Yıldırım da katıldı. Paneli Mehmet Nuri Yardım yönetti.
-
+<!--more-->
 Mehmet Nuri Yardım konuşmasında Üstün İnanç’ın çok yönlü bir sanatkâr olduğunu belirterek, “Üstün Hocamız romancıdır, gazetecidir, senaristtir, tiyatro yazarıdır. Ama biz bugün onun sadece tiyatro eserleri üzerinde duracağız. Üstün İnanç’ın sahnelenmesinde emek verdiği, merhum Necip Fazıl’ın Ulu Hakkan Abdülhamid Han adlı tiyatro eseri, geçmiş yıllarda Anadolu’da 519 defa sahnelenmiştir. Üstün İnanç gelenekli tiyatroyu modern tiyatro ile birleştirebilmiş bir yazarımızdır.” dedi.
 
 Caner Bilginer, konuşmasında Üstün Hocanın talebesi olduğunu belirterek, “O eserleriyle bizi uyandıran, bizi doğru düşünceye sevkeden bir sanatkârımızdır. Üstün İnanç yerli ve millidir.” dedi. Fulya Bilginer de konuşmasında şöyle dedi: “2000’li yılların başına hocamla tanıştık. Ondan çok yararlandık, birikiminden istifad ettik. Baz ıoyunlarda yönetmenim oldu. Bize ışık oldu, bizi yönlendirdi.” dedi.

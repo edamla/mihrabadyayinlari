@@ -9,6 +9,7 @@ featured: false
 # For adding excerpt add <!--more--> and break the line
 ---
 Çin’de iki yıl boyu kamplarda tutulan Gülbahar Haitiwaji (Heyithacı) yaşadıklarını “Çin Kampından Nasıl Kurtuldum” adıyla kitaplaştırdı. Heyithacı, dünyanın gözü önünde Uygur halkının yaşadığı soykırıma sessiz kalınmaması için çağrıda bulunuyor.
+<!--more-->
 
 Fransa’da yaşayan eşinin yanına giden ve bir telefonla ülkesi Doğu Türkistan’a dönmek zorunda kalan Gülbahar Haitiwaji (Heyithacı) orada yaşayacaklarından habersiz yola koyuldu. Yola çıktığında ailesinin yanına, heybesinde pek de hatırlamak istemeyeceği ama bir kitap çıkaracak kadar çok, yaşanmışlıkla geri döneceğinden habersizdi. Heyithacı, ne olduğunu bile anlamadan ülkesinde tutuklanıp, 2 yıl boyunca toplama kampında tutuldu.Burada başına gelenleri Fransız gazeteci Rozenn Morgat’a anlatınca ortaya “Çin Kampından Nasıl Kurtuldum” adlı kitabı çıktı. Dünyada büyük ses getiren kitap geçtiğimiz ay Mihrabad Yayınları tarafından Türkçe olarak basıldı. Kitapta Heyithacı, yaşadıklarını en ince detaylarına kadar anlatıyor. Peki bu kamplarda ne yaşanıyor? Uygur Türkleri seslerini dünyaya duyurabiliyor mu? Bu soruları Heyithacı’ya ve aynı zamanda kitabın Türkçe baskısının editörlüğünü yapan Doç. Dr. Abdülhamit Avşar’a sorduk.
 

@@ -15,7 +15,7 @@ featured: true
 Bu haftaki eserimiz, **Mihrabad Yayınları**’ndan çıkan, **Süleyman Nazif**’ten“**Mehmed Akif**” isimli kitap.
 
 Merhum Mehmed Akif hakkında yazılan eserlerin pek çoğunu yakından inceledim, dostlarından ziyade eleştirenlere, tekfir edenlere de baktım.
-
+<!--more-->
 Dostlarının hemen hepsi Akif’in, “insan ve İslam karakteri” ile yoğrulduğunu, onur ve sevinçle kaydediyorlar.
 
 Akif’in hayatı ve şiirleri hakkında olumsuz görüş ileri sürenlerin de zorunlu olarak birleştikleri nokta aynı. “İnsan ve İslam karakterli oluşu”.

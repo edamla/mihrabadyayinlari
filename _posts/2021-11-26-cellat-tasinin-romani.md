@@ -11,7 +11,7 @@ featured: true
 Akademisyen yazar Durali Yılmaz’ın son çıkan romanı Fetva Yokuşu, Osmanlı döneminde önemli bir görevin ifasında kullanılan Cellat Taşı’nın serencamınıa nlatıyor.
 
 SÜLEYMAN KARAKULLUK HEMŞERİM ve saygıdeğer büyüğüm Durali Yılmaz’ın son kitabı Mihrabad Yayınları’ndan çıktı: FETVA YOKUŞU… Bizzat imzalayarak gönderdiği 220 sayfalık romanı büyük bir keyifle okudum.
-
+<!--more-->
 Süleymaniye’deki Fetva Yokuşu’nu eski haliyle bize anlatan bir çalışma Bir taşın “varoluşu” ve “yok oluşu” bu kadar mı güzel anlatılır… Diyeceksiniz ki, taş bu… Var olsa ne olur, yok olsa neler… Aman ha, sakın öyle demeyin. Zira bu taş, öyle bir taş ki. Osmanlı’nın son yıllarına bizzat tanıklık eden, İstanbul’un son asrını “gözleriyle gören ve anlatan” bir taş…
 
 Nazar Boncuğu Bana gönderilen kitapları okurken, İMLA’sına da çok dikkat ederim… Tashihlere filan takarım kafayı. Bu kitapta da bir küçük hata yakaladım: “Büyücek bir dörtgene benzeyen bu garip gövdede ne bir yazı, ne bir şekil yoktu” cümlesi tuhafıma gitti… “Vardı” diye bitmeliydi cümle. Bir cümlenin önünde “ne” kelimesi olumsuz anlamında kullanılıyorsa, cümlenin sonu olumsuz bitmez, olumlu biter… Deyip geçelim…

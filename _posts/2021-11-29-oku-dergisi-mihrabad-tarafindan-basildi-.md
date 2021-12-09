@@ -11,7 +11,7 @@ featured: true
 Türkiye İmam Hatip Okulu Mezunları Cemiyeti tarafından yaklaşık 20 yıl boyunca çıkarılan “İslam’ın İlk Emri Oku” dergisi tek ciltte toplandı.
 
 İlk sayısı 1961’de çıkarılan ve 1980 darbesine kadar yayınlarına devam eden derginin öne çıkan kısımları seçilerek hazırlanan eser, Damla Yayınevi’ne bağlı Mihrabad Yayınları tarafından basıldı.
-
+<!--more-->
 Büyük ölçüde Ahmet Baltacı arşivinden yararlanılarak hazırlanan eserde, derginin 1978’e kadar olan sayılarından seçme bölümlere ve yazılara yer verildi.
 
 Derginin kurucuları arasında yer alan ve daha sonra Damla Yayınevi’ni kuran Mehmet Doğru, eserin Milli Türk Talebe Birliği Konferans Salonu’nda yapılan tanıtım toplantısında konuştu.

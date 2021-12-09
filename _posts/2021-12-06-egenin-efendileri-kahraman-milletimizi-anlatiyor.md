@@ -9,7 +9,7 @@ featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
 Bâbıâli’nin sevilen ve sayılan ismi ressam ve yazar Gürbüz Azak’ın kaleme aldığı Ege’nin Efeleri kitabının tanıtım toplantısı Türkiye Yazarlar Birliği İstanbul Şubesi (Kızlarağası Medresesi)’nde yapıldı. Nurettin Taşkesen, Mustafa Nadir Önay, Muammer Erkul ve Mehmet Nuri Yardım eser ve yazarı hakkında konuştular. Seçkin bir davetli topluluğunun iştirak ettiği toplantıda dinleyiciler de söz alarak kısa konuşmalar yaptılar.
-
+<!--more-->
 Mihrabad Yayınları’nın düzenlediği panelde konuşmacılar Ege’nin Efeleri kitabını ve Gürbüz Azak’ın hizmetlerini anlattılar. Panelin idareciliğini yapan Mehmet Nuri Yardım, rahatsızlığı dolayısıyla konuşmacı olduğu hâlde toplantıya katılamayan Prof. Dr. Durali Yılmaz’ın mektubunu okudu. Yardım, Gürbüz Azak’ın artık Bâbıâli’de çok nadir kalan müstesna münevverlerden biri olduğunu belirterek konuşmasına şöyle devam etti:
 
 “Gürbüz ağabey çok iyi bir ressam olmasının yanısıra kıymetli bir yazarımızdır. Hepsinden önemlisi bir gönül ve yürek insanıdır. Genç gazetecilere, sanatçılara, edebiyatçılara hep sahip çıkmış, dostlarına vefa göstermiştir. Şimdi de seçkin bir eseri olan Ege’nin Efeleri kitabıyla hemşehrilerine olan borcunu ödüyor. Hemşehrileri de bu gayretin kıymetini bilmiş, Mustafa Nadir Önay’ın önayak olmasıyla Denizli’de ‘Gürbüz Azak Evi Müzesi’ kurulmuştur. Eserde başta şehit başvekil Adnan Menderes ve diğer efeler, çok duygulu ve gerçekçi bir dille anlatılmıştır. Herkesin ama bilhassa bütün Egelilerin bir an önce okuması gereken bir eserdir Ege’nin Efeleri.”

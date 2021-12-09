@@ -10,7 +10,7 @@ featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
 
-Hani derler ya bir kitap okudum, bir film seyrettim dünyam değişti. Ben de hafta sonu bir kitap okudum iki gün kendime gelemedim. Klasik yaklaşımla bu çağda bu olur mu? Bu eski zamanlarda kalmış uydurma masallardan bir roman olmalı, diye düşünebilirsiniz. Maalesef keşke öyle olsaydı ama öyle değil. Daha yeni yaşanmış bir acı; dramatik, travmatik bir gerçekten, hayat hikâyesinden söz ediyorum.
+Hani derler ya bir kitap okudum, bir film seyrettim dünyam değişti. Ben de hafta sonu bir kitap okudum iki gün kendime gelemedim. Klasik yaklaşımla bu çağda bu olur mu? Bu eski zamanlarda kalmış uydurma masallardan bir roman olmalı, diye düşünebilirsiniz. Maalesef keşke öyle olsaydı ama öyle değil. Daha yeni yaşanmış bir acı; dramatik, travmatik bir gerçekten, hayat hikâyesinden söz ediyorum.<!--more--> 
 
 2016 yılında Doğu Türkistan’dan bir yetkili Gülbahar Heyithacı’yı arayarak emeklilik işlemlerini tamamlaması için Karamay’a gelmesini söyler. Gülbahar Hanım, kocası ve 2 çocuğuyla Paris’te yaşamaktadır. Kocası sığınmacı olmuş, Gülbahar Hanım Çin vatandaşıdır. Karı koca uzun yıllar petrol mühendisi olarak çalışmıştır. Gülbahar Hanım birkaç eksik evrak için dönmek istemez; tamamlayıp göndereceğini söyler ancak görevli ısrarla gelmesi gerektiğini ifade eder. Gülbahar bir müddet tereddüt eder ancak kocasının Fransız vatandaşı olması onu cesaretlendirir. Üstelik annesi, kardeşleri ve arkadaşlarını görme arzusu da ağır basar ve Doğu Türkistan’a döner. İşte o gün 2, 5 yıl sürecek çile başlar…
 

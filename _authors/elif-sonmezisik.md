@@ -1,6 +1,6 @@
 ---
 layout: author
-title: Talip Arışahin
+title: Elif Sönmezışık
 key: elif-sonmezisik
 image: assets/images/avatar/elif-sonmezisik.jpg
 

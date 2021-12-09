@@ -13,6 +13,7 @@ Osmanlı’nın Son Zaferi Orta Doğu’daki Çanakkale Savaşımız: Kut’ül 
 Mehmed Âkif’in deyimiyle; İstiklal Savaşımızın Habercisi, Ön Sözü…
 
 Kut’ül Amare; Birinci Dünya Savaşı Yıllarında yaşanan; Irak, Bağdat yakınlarındaki; Dicle nehri kıyısında Kut’ül Amare denilen yerde Osmanlı Ordusunun İngilizleri büyük bir yenilgiye uğrattığı son zaferidir. O dönem karikatürlere konu olmuş; Türk Ordusuna ağır şekilde yenilen İngiltere yaralı aslan olarak tasvir edilmiştir. ‘’ Avrupa’nın hasta adamı’’ aslan terbiyecisi Osmanlı.
+<!--more-->
 
 Kut’ta kazandığımız yüz yıl önceki destanımız, Milli Mücadele ve Kurtuluş Savaşımızın kazanılmasın da çok güçlü bir moral olmuştur. Azim, milli birlik ve beraberlik, Türk olmanın gücü; İngilizlerin teknik üstünlüğüne galip gelince, milli mücadelede halkımıza umut ve motive olurken, düşmanlarımız için de kırılma noktası olmuştur.
 

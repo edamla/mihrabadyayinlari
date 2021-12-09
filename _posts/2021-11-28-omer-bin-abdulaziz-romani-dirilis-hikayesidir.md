@@ -8,7 +8,9 @@ tags: []
 featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
-Muhsin İlyas Subaşı Anadolu’nun edebiyatımızdaki sesi, nefesi ve temsilcisidir. Yaşadığı Kayseri’de kaleme aldığı değerli eserleri düzenli olarak günışığına çıkaran Subaşı, gençlere ve kitapsevere birikimini aktarmaya devam ediyor. Bugüne kadar pek çok eseri neşredilen Muhsin İlyas Subaşı, yeni dönemde Mihrabad Yayınları’ndan Mimar Sinan’ın hayatını romanlaştırdığı Aşkımı Taşla Yazdım ile Oğuz’un Altın Sesi Necip Fazıl Kısakürek’den sonra Beşinci Halife Ömer Bin Abdülaziz’i kültür, edebiyat ve inanç dünyamıza kazandırdı. Subaşı, yeni belge romanında, çakıl taşları arasındaki bir alyansı sunuyor biz okuyucularına. Değerli yazarımızla yeni eseri Beşinci Halife Ömer Bin Abdülaziz hakkında konuştuk. İşte Muhsin İlyas Subaşı hocamıza yönelttiğimiz sorular ve aldığımız cevaplar:
+Muhsin İlyas Subaşı Anadolu’nun edebiyatımızdaki sesi, nefesi ve temsilcisidir. Yaşadığı Kayseri’de kaleme aldığı değerli eserleri düzenli olarak günışığına çıkaran Subaşı, gençlere ve kitapsevere birikimini aktarmaya devam ediyor.
+<!--more-->
+ Bugüne kadar pek çok eseri neşredilen Muhsin İlyas Subaşı, yeni dönemde Mihrabad Yayınları’ndan Mimar Sinan’ın hayatını romanlaştırdığı Aşkımı Taşla Yazdım ile Oğuz’un Altın Sesi Necip Fazıl Kısakürek’den sonra Beşinci Halife Ömer Bin Abdülaziz’i kültür, edebiyat ve inanç dünyamıza kazandırdı. Subaşı, yeni belge romanında, çakıl taşları arasındaki bir alyansı sunuyor biz okuyucularına. Değerli yazarımızla yeni eseri Beşinci Halife Ömer Bin Abdülaziz hakkında konuştuk. İşte Muhsin İlyas Subaşı hocamıza yönelttiğimiz sorular ve aldığımız cevaplar:
 
 -Muhsin İlyas Hocam, 8’nci romanınızı yayınladınız ve farklı bir konuyu ele aldınız? Neden Ömer Bin Abdülaziz? İzah eder misiniz?
 

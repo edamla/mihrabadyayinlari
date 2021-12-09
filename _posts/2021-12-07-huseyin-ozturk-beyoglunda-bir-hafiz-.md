@@ -18,6 +18,7 @@ Mehmet Ali Sarı hocayı TRT’nin Ramazan ayında yayınladığı “Kur’an B
 Mehmet Ali Sarı hoca yakın tarihin şahidi olarak, fakirliğin ve yoksulluğun en dibini yaşamış bir çocuk olarak Bolu’nun Seben ilçesinin Tepe köyünde dünyaya gelmiş.
 
 1930’lu yıllardan 1960 senesine kadar devletin ve milletin malum zihniyetin altında nasıl inim inim inlediğini görmüş ve dini-milli değer yargılarından taviz vermeden bugünlere gelmiş.
+<!--more-->
 
 Hocanın hayat hikâyesi uyduruk kişisel gelişim kitaplarını silip süpürecek cinsten.
 

@@ -2,7 +2,7 @@
 layout: author
 title: Şeyh İsmail Ankaravi
 key: ismail-ankaravi
-image: assets/images/avatar/ismail-ankaravi.jpg
+image: assets/images/avatar/resim-yok.jpg
 
 twitter: https://twitter.com/
 facebook: https://www.facebook.com/
