@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign author = page %}
-<!-- {{ author | inspect }} -->
+
 <div class="container">
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
@@ -27,21 +27,7 @@ layout: default
 					{% if author.title %}
 					<h1 class="display-4 mb-4 article-headline">{{ author.title }}</h1>
 					{% endif %}
-					<!-- <div class="align-items-center">
-						
-							<h6 class="text-muted d-block mt-1">{{ author.date | date: '%d.%m.%Y' }} · {% include meta-read-time.html %}</h6>
-							<h6 class="text-muted d-block mt-1">{% include meta-read-time.html %}</h6>
 
-						<div class="icon-block mt-3 justify-content-center">  
-							<div>
-							<a target="_blank" href="{{ author.twitter }}"><i class="fab fa-twitter text-muted" aria-hidden="true"></i></a>  &nbsp;
-							<a target="_blank" href="{{ author.facebook }}"><i class="fab fa-facebook text-muted" aria-hidden="true"></i></a>  &nbsp;
-							<a target="_blank" href="{{ author.youtube }}"><i class="fab fa-youtube text-muted" aria-hidden="true"></i></a>  &nbsp;
-							<a target="_blank" href="{{ author.instagram }}"><i class="fab fa-instagram text-muted" aria-hidden="true"></i></a>  &nbsp;
-							<a target="_blank" href="{{ author.site }}"><i class="fa fa-globe text-muted" aria-hidden="true"></i></a> &nbsp;
-							</div>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -65,7 +51,8 @@ layout: default
            
 			<h4 class="font-weight-bold spanborder"><span>{{author.title}} Kitapları</span></h4>
 			<div class="row mb-3">
-				{% assign books = site.books | where_exp:"book", "book.authors contains author.key" %}
+				{% assign books = site.books | where_exp:"item", "item.authors contains author.key" %}
+				
 				{% include product-slider.html %}
 			</div>
 

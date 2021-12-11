@@ -268,22 +268,25 @@ layout: default
 		<div class="col-12">
 			<h4 class="font-weight-bold spanborder"><span>Yazarın diğer kitapları</span></h4>
 			<div class="row mb-3">
+
 				
 				{% assign bookarray = "" | split: ',' %}
 				{% for book in site.books %}
-					 {%for bookauthor in page.authors %}
-					 <!-- kitapların içinde bu kitabın yazarlarını filtreledik. -->
+					{%for bookauthor in page.authors %}
+					<!-- kitapların içinde bu kitabın yazarlarını filtreledik. -->
 						{% if book.authors contains bookauthor %}
 						<!-- çıktı olarak gelen kitapları bir array içine aldık -->
 							{% assign bookarray = bookarray | push: book %}
 						{%endif %}
-					 {% endfor %}
+					{% endfor %}
 				{% endfor %}
 
 				<!-- arayyi uniqleştirdik aynı kitap 2 kere çıkmasın diye. -->
 				{% assign uniqbookArray = bookarray | uniq %}
 				{% assign books = uniqbookArray %}
 				{% include product-slider.html %}
+				
+				<!-- {% assign books = site.books | where_exp:"item", "item.authors contains book.authors" %} -->
 
 			</div>
 		</div>

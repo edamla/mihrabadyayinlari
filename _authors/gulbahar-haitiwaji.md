@@ -33,6 +33,6 @@ Dondurucu bir aralık gecesi, nereye götürüldüğü söylenmeden bir kamyona 
 
 2020 Eylül'ünün bir sabahında Boulogne'daki apartman dairesinin beyaz kanepesinde oturan Gülbahar, kitabın ilk sayfalarını yazmaya koyuldu. Bu, serbest bırakılıp Roissy Havaalanı'na gelişinden, Kerim, Gülhumar ve Gülnigar ile coşkulu buluşmalarından ancak bir yıl sonra oldu. Eserin hazırlanışı sırasında, gerçek kimliğini açıklayıp açıklamamak arasında kararsız kalmıştı. Kızı bana: "O henüz gerçek adını söylemek istemiyor ama bunu söylemeyi düşünüyor." diye yazmıştı.
 
-Birkaç gün sonra Gülbahar tercihini yaptı. "Bu benim hikAyem, sonuna kadar üstlenmek istiyorum. Bu Uygur olarak benim vatan görevim." dedi. Kitap kapağına gerçek adının konmasını istedi. Aldığı risk çok büyüktü. Ama kimse, gerçek adının ne olduğunu bilmeden onun tanıklığının eserini okumaya başlayamazdı.
+Birkaç gün sonra Gülbahar tercihini yaptı. "Bu benim hikayem, sonuna kadar üstlenmek istiyorum. Bu Uygur olarak benim vatan görevim." dedi. Kitap kapağına gerçek adının konmasını istedi. Aldığı risk çok büyüktü. Ama kimse, gerçek adının ne olduğunu bilmeden onun tanıklığının eserini okumaya başlayamazdı.
 
 Çin, Şincan'da toplama kampı kurma işini durdurmak bir yana Uygurları kamplara taşımaya devam ederken, bu etnik toplumun kadınlarını kısırlaştırırken ne BM ne herhangi bir uluslararası heyet günümüzde bu soykırımın boyutunu tespit etmeyi başaramadı. Fransa tarafından kurtarılan ilk mağdur Gülbahar yazdığı kitapta onlar adına konuşmaktadır.
