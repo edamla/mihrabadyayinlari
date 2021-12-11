@@ -5,7 +5,6 @@ authors: ["nehir-aydin-gokduman"]
 categories: [ Kültür ]
 image: assets/images/posts/9-numara-senin-gulbahar.jpg
 tags: []
-sticky: true
 featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
