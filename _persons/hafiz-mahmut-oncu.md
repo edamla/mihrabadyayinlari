@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/hafiz-mahmut-oncu/"
 title:  "Hafız Mahmut Öncü (Beşiktaşlı)"
 # musics : [[ name , "duration" , filename]]
@@ -8,7 +8,7 @@ musics: []
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/hafiz-mahmut-oncu.jpg
+image: assets/images/persons/hafiz-mahmut-oncu.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

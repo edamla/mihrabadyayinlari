@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/saadettin-kaynak/"
 title:  "Hafız Sadettin Kaynak"
 # musics : [[ name , "duration" , filename]]
@@ -8,7 +8,7 @@ musics: [  [İnsan Suresi 1-16. ayetler , "03:33" , 8-saadettin-kaynak/1]]
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/saadettin-kaynak.jpg
+image: assets/images/persons/saadettin-kaynak.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

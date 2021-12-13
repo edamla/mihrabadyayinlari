@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/hafiz-hasan-akkus/"
 title:  "Hafız Hasan Akkuş"
 # musics : [[ name , "duration" , filename]]
@@ -10,7 +10,7 @@ musics: [  [Al-i İmran s. 144 – 150. ayetler , "06:57" , 7-hafiz-hasan-akkus/
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/hafiz-hasan-akkus.jpg
+image: assets/images/persons/hafiz-hasan-akkus.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

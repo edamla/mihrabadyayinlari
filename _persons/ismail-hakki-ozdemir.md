@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/ismail-hakki-ozdemir/"
 title:  "Hafız İsmail Hakkı Özdemir (Enderunlu)"
 # musics : [[ name , "duration" , filename]]
@@ -8,7 +8,7 @@ musics: [ ]
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/ismail-hakki-ozdemir.jpg
+image: assets/images/persons/ismail-hakki-ozdemir.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

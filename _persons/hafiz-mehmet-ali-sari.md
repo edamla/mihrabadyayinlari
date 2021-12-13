@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/hafiz-mehmet-ali-sari/"
 title:  "Dr. Mehmet Ali Sarı"
 # musics : [[ name , "duration" , filename]]
@@ -23,7 +23,7 @@ musics: [ [Yasin Suresi , "25:36" , 48-hafiz-mehmet-ali-sari/1],
 # pdfs : [[name, filename]]
 pdf: true
 pdfs: [ ["Hafiz Mehmet AliSarı" , 2-hafiz-ali-uskudarli/1] ,["DENEME" , 2-hafiz-ali-uskudarli/1] ]
-image: assets/images/md-image/sahsiyetler/hafiz-mehmet-ali-sari.jpg
+image: assets/images/persons/hafiz-mehmet-ali-sari.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

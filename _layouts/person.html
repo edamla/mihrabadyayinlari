@@ -10,7 +10,7 @@ layout: default
 				
 				{% if person.image %}
 				<div class="col-md-3 pr-0 align-self-center">
-					<img class="rounded-circle" src="{% if page.image contains "://" %}{{ person.image }}{% else %}{{ site.baseurl }}/{{ person.image }}{% endif %}" alt="{{ page.title }}">
+					<img class="rounded" style="max-height: 25vh;" src="{% if page.image contains "://" %}{{ person.image }}{% else %}{{ site.baseurl }}/{{ person.image }}{% endif %}" alt="{{ page.title }}">
 				</div>
                 {% endif %}
 

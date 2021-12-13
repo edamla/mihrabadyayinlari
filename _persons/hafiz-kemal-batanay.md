@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/hafiz-kemal-batanay/"
 title:  "Hattat Hafız Kemal Batanay"
 # musics : [[ name , "duration" , filename]]
@@ -11,7 +11,7 @@ musics: [  [Âl-i İmran s. 110 – 115. ayetler , "05:44" , 6-hafiz-kemal-batan
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/hafiz-kemal-batanay.jpg
+image: assets/images/persons/hafiz-kemal-batanay.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"

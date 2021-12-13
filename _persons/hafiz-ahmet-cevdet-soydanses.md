@@ -1,5 +1,5 @@
 ---
-layout: kisi
+layout: person
 permalink: "/hafiz-ahmet-cevdet-soydanses/"
 title:  "Hafız Ahmet Cevdet Soydanses"
 # musics : [[ name , "duration" , filename]]
@@ -9,7 +9,7 @@ musics: [  [Enbiya Suresi 42-50. ayetler , "04:12" , 9-hafiz-ahmet-cevdet-soydan
 # pdfs : [[name, filename]]
 pdf: false
 pdfs: []
-image: assets/images/md-image/sahsiyetler/hafiz-ahmet-cevdet-soydanses.jpg
+image: assets/images/persons/hafiz-ahmet-cevdet-soydanses.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"
 book-image: "turk-tavri/turk-tavri-1.png"
