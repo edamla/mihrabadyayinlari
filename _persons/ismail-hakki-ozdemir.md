@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/ismail-hakki-ozdemir/"
+
 title:  "Hafız İsmail Hakkı Özdemir (Enderunlu)"
 # musics : [[ name , "duration" , filename]]
 music: false

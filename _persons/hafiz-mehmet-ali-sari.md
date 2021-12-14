@@ -1,6 +1,5 @@
 ---
 layout: person
-permalink: "/hafiz-mehmet-ali-sari/"
 title:  "Dr. Mehmet Ali Sarı"
 # musics : [[ name , "duration" , filename]]
 music: true
@@ -20,9 +19,11 @@ musics: [ [Yasin Suresi , "25:36" , 48-hafiz-mehmet-ali-sari/1],
             [Hüzzam makamında aşır eş-Şûrâ s. 49-53. ayetler, "04:40" , 48-hafiz-mehmet-ali-sari/13],
             [Saba makamında aşır ez-Zümer s. 73-75. ayetler , "02:35" , 48-hafiz-mehmet-ali-sari/14]]
 
-# pdfs : [[name, filename]]
-pdf: true
-pdfs: [ ["Hafiz Mehmet AliSarı" , 2-hafiz-ali-uskudarli/1] ,["DENEME" , 2-hafiz-ali-uskudarli/1] ]
+# docs : [[name, filename]]
+doc: true
+docs: [
+     ["Hafız Mehmet Ali Sarı" , 2-hafiz-ali-uskudarli/1.pdf] 
+     ]
 image: assets/images/persons/hafiz-mehmet-ali-sari.jpg
 sahsiyetler: true
 bookname: "KUR’AN TİLÂVETİ VE TÜRK TAVRI"

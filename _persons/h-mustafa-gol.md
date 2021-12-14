@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/h-mustafa-gol/"
+
 title:  "Hafız Mustafa Göl"
 # musics : [[ name , "duration" , filename]]
 music: false

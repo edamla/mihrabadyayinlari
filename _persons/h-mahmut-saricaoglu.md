@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/h-mahmut-saricaoglu/"
+
 title:  "Hafız Mahmut Sarıcaoğlu"
 # musics : [[ name , "duration" , filename]]
 music: false

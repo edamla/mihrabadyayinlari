@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-nusret-yesilcay/"
+
 title:  "Duahan Hafız Nusret Yeşilçay"
 # musics : [[ name , "duration" , filename]]
 music: false

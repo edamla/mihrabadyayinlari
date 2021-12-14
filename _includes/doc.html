@@ -1,0 +1,45 @@
+
+
+<div class="container pdf-container">
+    <div id="pdfRow" class="row add-bottom">
+
+    </div>
+</div>
+
+
+<script>
+    function getdocs() {
+        var content = "";
+        for (var a = 0; a < docs.length; a++) {
+        var pdfName = docs[a].name;
+        var pdfFileName = docs[a].file;
+        var filePath = "/assets/docs/";
+        var fileExtension = ".pdf";
+
+        var addPdf = `
+            <div class="col-6 col-md-4 pb-3">
+        <a href="${filePath}${pdfFileName}" class="btn btn-info" role="button" aria-pressed="true" target="_blank"> <i class="far fa-file-audio pr-2"></i> ${pdfName}</a>
+        </div>
+        `;
+
+        var content = content + addPdf;
+        document.getElementById("pdfRow").innerHTML = content;
+        console.log(addPdf);
+        }       
+    }
+
+
+    var docs = [
+    {% for doc in page.docs %}
+
+        {
+        "index": {{ forloop.index }},
+        "name":  "{{ doc[0] }}",
+        "file": "{{ doc[1] }}"
+        },
+
+    {% endfor %}
+
+    ]
+    getdocs();
+</script>

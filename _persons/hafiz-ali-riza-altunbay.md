@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-ali-riza-altunbay/"
+
 title:  "Hafız Ali Rıza Altunbay"
 # musics : [[ name , "duration" , filename]]
 music: true

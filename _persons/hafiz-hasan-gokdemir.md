@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-hasan-gokdemir/"
+
 title:  "Hafız Hasan Gökdemir"
 # musics : [[ name , "duration" , filename]]
 music: false

@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-zeki-altun/"
+
 title:  "Hafız Zeki Altun"
 # musics : [[ name , "duration" , filename]]
 music: true

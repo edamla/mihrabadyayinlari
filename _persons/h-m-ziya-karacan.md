@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/h-m-ziya-karacan/"
+
 title:  "Hafız Mehmet Ziya Karacan"
 # musics : [[ name , "duration" , filename]]
 music: false

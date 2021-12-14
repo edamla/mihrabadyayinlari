@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-kemal-batanay/"
+
 title:  "Hattat Hafız Kemal Batanay"
 # musics : [[ name , "duration" , filename]]
 music: true

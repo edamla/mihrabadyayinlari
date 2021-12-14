@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/ismail-doruk/"
+
 title:  "İsmail Doruk (Bülbül)"
 # musics : [[ name , "duration" , filename]]
 music: true

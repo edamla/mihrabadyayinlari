@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/gonenli-hafiz-mehmet/"
+
 title:  "Hafız Mehmet Öğütçü (Gönenli)"
 # musics : [[ name , "duration" , filename]]
 music: true

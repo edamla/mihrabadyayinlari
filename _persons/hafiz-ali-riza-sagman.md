@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-ali-riza-sagman/"
+
 title:  "Hafız Ali Rıza Sağman"
 # musics : [[ name , "duration" , filename]]
 music: true

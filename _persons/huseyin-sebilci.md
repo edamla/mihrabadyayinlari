@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/huseyin-sebilci/"
+
 title:  "Hüseyin Okurlar (Sebilci)"
 # musics : [[ name , "duration" , filename]]
 music: true

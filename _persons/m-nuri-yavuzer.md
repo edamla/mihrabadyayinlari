@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/m-nuri-yavuzer/"
+
 title:  "Hafız Mehmet Nureddin Yavuzer"
 # musics : [[ name , "duration" , filename]]
 music: false

@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/saadettin-kaynak/"
+
 title:  "Hafız Sadettin Kaynak"
 # musics : [[ name , "duration" , filename]]
 music: true

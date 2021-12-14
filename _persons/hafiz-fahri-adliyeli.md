@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-fahri-adliyeli/"
+
 title:  "Hafız Fahri Bey (Adliyeli)"
 # musics : [[ name , "duration" , filename]]
 music: true

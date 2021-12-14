@@ -36,7 +36,7 @@ jQuery(function ($) {
         // debugger;
          var index = id,
             playing = false,
-            mediaPath = '../assets/musics/',
+            mediaPath = '/assets/musics/',
             extension = '',
             tracks = playlist,
             buildPlaylist = $(tracks).each(function(key, value) {

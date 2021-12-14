@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/omer-akoz/"
+
 title:  "Hafız Ömer Aköz"
 # musics : [[ name , "duration" , filename]]
 music: false

@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-b-sidki-sezgin/"
+
 title:  "Bekir Sıdkı Sezgin"
 # musics : [[ name , "duration" , filename]]
 music: true

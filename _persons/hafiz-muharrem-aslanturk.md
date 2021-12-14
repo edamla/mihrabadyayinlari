@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-muharrem-aslanturk/"
+
 title:  "Muharrem Arslantürk"
 # musics : [[ name , "duration" , filename]]
 music: true

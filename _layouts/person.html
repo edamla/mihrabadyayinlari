@@ -10,7 +10,7 @@ layout: default
 				
 				{% if person.image %}
 				<div class="col-md-3 pr-0 align-self-center">
-					<img class="rounded" style="max-height: 25vh;" src="{% if page.image contains "://" %}{{ person.image }}{% else %}{{ site.baseurl }}/{{ person.image }}{% endif %}" alt="{{ page.title }}">
+					<img class="rounded-circle" style="max-height: 30vh;" src="{% if page.image contains "://" %}{{ person.image }}{% else %}{{ site.baseurl }}/{{ person.image }}{% endif %}" alt="{{ page.title }}">
 				</div>
                 {% endif %}
 
@@ -27,13 +27,18 @@ layout: default
 					{% if person.title %}
 					<h1 class="display-4 mb-4 article-headline">{{ person.title }}</h1>
 					{% endif %}
+					{% if person.music == true %}
+					<a href="#sesli-eserler" class="btn btn-outline-info" role="button" aria-pressed="true"> <i class="far fa-file-audio pr-2"></i> Sesli Eserleri</a>
+					{% endif %}
+					{% if person.doc == true %}
+					<a href="#yazili-eserler" class="btn btn-outline-secondary" role="button" aria-pressed="true"><i class="far fa-file-alt pr-2"></i>Yazılı Eserleri</a>
+					{% endif %}
 
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-
 
 
 
@@ -50,13 +55,23 @@ layout: default
 			
             <!-- Sesli eserler -->
 			{% if person.music == true %}
-			<h4 class="font-weight-bold spanborder"><span>{{person.title}} Sesli Eserleri</span></h4>
+			<h4 class="font-weight-bold spanborder"><span id="sesli-eserler">{{person.title}} Sesli Eserleri</span></h4>
 			<div class="row mb-3">
 				
 				{% include music.html %}
 			</div>
 			{% endif %}
 			<!-- Sesli eserler -->
+
+			<!-- yazili eserler -->
+			{% if person.doc == true %}
+			<h4 class="font-weight-bold spanborder"><span id="yazili-eserler">{{person.title}} Yazılı Eserleri</span></h4>
+			<div class="row mb-3">
+				
+				{% include doc.html %}
+			</div>
+			{% endif %}
+			<!-- yazili eserler -->
 
 
 			 <!-- Mailchimp Subscribe Form -->

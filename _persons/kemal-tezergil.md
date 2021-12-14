@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/kemal-tezergil/"
+
 title:  "Hafız Kemal Tezergil"
 # musics : [[ name , "duration" , filename]]
 music: true

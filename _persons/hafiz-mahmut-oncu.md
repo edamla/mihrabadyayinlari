@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-mahmut-oncu/"
+
 title:  "Hafız Mahmut Öncü (Beşiktaşlı)"
 # musics : [[ name , "duration" , filename]]
 music: false

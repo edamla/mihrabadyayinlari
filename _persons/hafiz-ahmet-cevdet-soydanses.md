@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-ahmet-cevdet-soydanses/"
+
 title:  "Hafız Ahmet Cevdet Soydanses"
 # musics : [[ name , "duration" , filename]]
 music: true

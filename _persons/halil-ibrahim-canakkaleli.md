@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/halil-ibrahim-canakkaleli/"
+
 title:  "Hafız Halil İbrahim Çanakkaleli"
 # musics : [[ name , "duration" , filename]]
 music: true

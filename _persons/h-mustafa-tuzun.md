@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/h-mustafa-tuzun/"
+
 title:  "Hafız Mustafa Tüzün"
 # musics : [[ name , "duration" , filename]]
 music: false

@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/hafiz-ahmet-bolulu/"
+
 title:  "Hafız Ahmet Alagöz"
 # musics : [[ name , "duration" , filename]]
 music: true

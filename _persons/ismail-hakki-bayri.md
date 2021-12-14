@@ -1,6 +1,6 @@
 ---
 layout: person
-permalink: "/ismail-hakki-bayri/"
+
 title:  "Hafız İsmail Hakkı Bayrı (Kesik Bacak)"
 # musics : [[ name , "duration" , filename]]
 music: false
