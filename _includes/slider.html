@@ -11,7 +11,7 @@
 <div class="container remove-site-content-margin slider">
 
         <div class="base" id="base">
-            {% for slide in site.data.slider.slides %}
+            {% for slide in site.slides %}
             <div class="item w-100 img img-{{forloop.index}}">
                     <a href="{{ slide.href }}" target="{{ slide.target }}">
                         <img class="d-none d-md-block w-100 img-fluid" src="{{ slide.img }}" alt="{{ slide.alt }}">
