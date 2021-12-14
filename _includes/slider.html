@@ -14,8 +14,8 @@
             {% for slide in site.slides %}
             <div class="item w-100 img img-{{forloop.index}}">
                     <a href="{{ slide.href }}" target="{{ slide.target }}">
-                        <img class="d-none d-md-block w-100 img-fluid" src="{{ slide.img }}" alt="{{ slide.alt }}">
-                        <img class="d-block d-md-none w-100 img-fluid" src="{{ slide.mobile-img }}" alt="{{ slide.alt }}">
+                        <img class="d-none d-md-block w-100 img-fluid" src="{{ slide.img }}" alt="{{ slide.title }}">
+                        <img class="d-block d-md-none w-100 img-fluid" src="{{ slide.mobile-img }}" alt="{{ slide.title }}">
                     </a>
             </div>
             {% endfor %}   
