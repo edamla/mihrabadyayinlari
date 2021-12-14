@@ -20,7 +20,7 @@ musics: [ [Yasin Suresi , "25:36" , 48-hafiz-mehmet-ali-sari/1],
             [Saba makamında aşır ez-Zümer s. 73-75. ayetler , "02:35" , 48-hafiz-mehmet-ali-sari/14]]
 
 # docs : [[name, filename]]
-doc: true
+doc: false
 docs: [
      ["Hafız Mehmet Ali Sarı" , 2-hafiz-ali-uskudarli/1.pdf] 
      ]
