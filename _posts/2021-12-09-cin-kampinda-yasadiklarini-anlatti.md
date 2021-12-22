@@ -5,6 +5,7 @@ authors: []
 categories: [ Kültür ]
 image: assets/images/posts/cin-kampi-yasadiklarini-anlatti.jpg
 tags: []
+sticky: true
 featured: false
 # For adding excerpt add <!--more--> and break the line
 ---
