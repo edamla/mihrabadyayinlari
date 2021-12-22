@@ -5,7 +5,7 @@ authors: []
 categories: [ Kültür ]
 image: assets/images/posts/ortadogu-canakkale-savasmiz.jpg
 tags: []
-sticky: true
+sticky: false
 featured: true
 # For adding excerpt add <!--more--> and break the line
 ---
