@@ -13,4 +13,4 @@ rating: 4.5
 Edebiyat dünyasının usta ismi Denizlili yazar Gürbüz Azak, Kültür Sanat Büyük Ödülleri Edebiyat dalında ödül aldı.
 Beştepe’deki ödül töreninde Denizlili sanatçı, ödülünü Cumhurbaşkanı Recep Tayyip Erdoğan’ın elinden aldı.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=GIVoWG9E3oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GIVoWG9E3oQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
