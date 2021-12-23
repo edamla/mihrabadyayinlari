@@ -6,7 +6,7 @@ date: 2021-12-20T10:18:23+00:00
 categories: [ Kültür ]
 featured: true
 tags: [Gürbüz Azak, Edebiyat Ödülü,]
-image: assets/images/gurbuz-azak-edebiyat-odulu.jpg
+image: assets/images/cumhurbaskanligi-edebiyat-odulu-gurbuz-azak.jpg
 rating: 4.5
 ---
 
