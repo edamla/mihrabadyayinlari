@@ -6,7 +6,7 @@ date: 2021-12-20T10:18:23+00:00
 categories: [ Kültür ]
 featured: true
 tags: [Fahreddin Paşa, Medine Müdafaası]
-image: assets/images/fahreddin_pasa.jpg
+image: assets/images/posts/fahreddin_pasa.jpg
 rating: 4.5
 ---
 
