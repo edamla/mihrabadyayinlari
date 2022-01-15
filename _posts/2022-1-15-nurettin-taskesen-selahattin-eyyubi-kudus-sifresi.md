@@ -10,7 +10,7 @@ image: assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi.jpg
 rating: 4.5
 ---
 
-Mihrabat Yayınları yazarı Nurettin Taşkesen, İstanbul Başakşehir Milli Eğitim Müdürlüğü işbirliğinde Din Kültürü ve Ahlak Bilgisi öğretmen Gelişim Programı kapsamında öğretmenlerle birlikte çevrimiçi bir seminer gerçekleştirdi. 12 Ocak 2022 Çarşamba günü saat: 18.00’de gerçekleşen çevrimiçi seminerde Hz. Ömer’den Selahattin Eyyubi’ye ve Osmanlı döneminden günümüze Kudüs’ün serüveni anlatıldı. Öğretmenlerin yoğun ilgisi ve soru-cevap faslıyla seminer sona erdi.
+Mihrabat Yayınları yazarı Nurettin Taşkesen, İstanbul Başakşehir Milli Eğitim Müdürlüğü işbirliğinde Din Kültürü ve Ahlak Bilgisi Öğretmen Gelişim Programı kapsamında öğretmenlerle birlikte çevrimiçi bir seminer gerçekleştirdi. 12 Ocak 2022 Çarşamba günü saat: 18.00’de gerçekleşen çevrimiçi seminerde Hz. Ömer’den Selahattin Eyyubi’ye ve Osmanlı döneminden günümüze Kudüs’ün serüveni anlatıldı. Öğretmenlerin yoğun ilgisi ve soru-cevap faslıyla seminer sona erdi.
 
 <div class="container">
   <div class="row">
