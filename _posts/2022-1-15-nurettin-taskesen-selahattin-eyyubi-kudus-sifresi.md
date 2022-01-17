@@ -15,24 +15,24 @@ Mihrabat Yayınları yazarı Nurettin Taşkesen, İstanbul Başakşehir Milli E�
 <div class="container">
   <div class="row">
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-1.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-1.jpg" alt="">
     </div>
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-2.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-2.jpg" alt="">
     </div>
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-3.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-3.jpg" alt="">
     </div>
   </div>
   <div class="row">
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-4.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-4.jpg" alt="">
     </div>
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-6.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-6.jpg" alt="">
     </div>
     <div class="col-sm">
-      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-6.jpg" alt="" width="500" height="333">
+      <img src="/assets/images/posts/nurettin-taskesen-selahattin-eyyubi-kudus-sifresi-6.jpg" alt="">
     </div>
   </div>
 </div>
