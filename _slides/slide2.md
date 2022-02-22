@@ -1,8 +1,8 @@
 ---
-order: 3
-title:  "Orta Doğu’daki Çanakkale Savaşımız: Kut’ül Amare"
-img: "assets/images/slides/2.jpg"
-mobile-img: "assets/images/slides/2m.jpg"
-href: "#"
-target: "" # _blank
+order: 2
+title:  "Mehmet Ali Sarı Anılar"
+img: "assets/images/slides/3.jpg"
+mobile-img: "assets/images/slides/3m.jpg"
+href: "https://www.youtube.com/watch?v=XD6zi7jITHo"
+target: "_blank" # 
 ---

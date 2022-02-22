@@ -1,8 +1,8 @@
 ---
-order: 1
-title:  "Ayasofya'yı Keşif"
-img: "assets/images/slides/4.jpg"
-mobile-img: "assets/images/slides/4m.jpg"
+order: 4
+title:  "Endülüs"
+img: "assets/images/slides/1.jpg"
+mobile-img: "assets/images/slides/1m.jpg"
 href: "#"
 target: "" # _blank
 ---
