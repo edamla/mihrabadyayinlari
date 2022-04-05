@@ -1,8 +1,8 @@
 ---
-order: 1
-title:  "Mihrabad Yayınları Bursa Tüyap Kitap Fuarı'nda"
-img: "assets/images/slides/5.jpg"
-mobile-img: "assets/images/slides/5m.jpg"
+order: 5
+title:  "Endülüs"
+img: "assets/images/slides/1.jpg"
+mobile-img: "assets/images/slides/1m.jpg"
 href: "#"
 target: "" # _blank
 ---
