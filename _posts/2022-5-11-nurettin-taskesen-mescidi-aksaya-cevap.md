@@ -5,7 +5,7 @@ title: "Mescid-i Aksa’ya cevap!"
 categories: [ Kültür ]
 featured: true
 tags: [Nurettin Taşkesen, Mescid-i Aksa]
-image: assets/images/posts/nurettin-taskesen-mescidi-aksa-dile-gelse.jpg
+image: assets/images/posts/nurettin-taskesen-mescidi-aksaya-cevap.jpg
 rating: 4.5
 ---
 
