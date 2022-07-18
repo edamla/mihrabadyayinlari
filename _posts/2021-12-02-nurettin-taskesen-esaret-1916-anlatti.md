@@ -3,7 +3,7 @@ layout: post
 title:  "Nurettin Taşkesen, Esaret 1916’yı Anlattı"
 authors: []
 categories: [ Kültür ]
-image: assets/images/posts/hasan-basri-bilgin-peygamber-kissalarini-anlatti.jpg
+image: assets/images/posts/nurettin-taskesen-esaret-1916-anlatti.jpg
 tags: []
 featured: true
 # For adding excerpt add <!--more--> and break the line
