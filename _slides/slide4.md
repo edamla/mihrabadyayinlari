@@ -1,8 +1,8 @@
 ---
-order: 4
-title:  "Mehmet Ali Sarı Anılar"
-img: "assets/images/slides/3.jpg"
-mobile-img: "assets/images/slides/3m.jpg"
-href: "https://www.youtube.com/watch?v=XD6zi7jITHo"
-target: "_blank" # 
+order: 3
+title:  "Gençler İçin Kudüs ve Filistin Hz. Ömerden Günümüze"
+img: "assets/images/slides/5.jpg"
+mobile-img: "assets/images/slides/5m.jpg"
+href: "kitaplar/gencler-icin-kudus-filistin-hz-omerden-gunumuze"
+target: #"_blank"
 ---

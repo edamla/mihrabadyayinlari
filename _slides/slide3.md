@@ -1,8 +1,8 @@
 ---
 order: 3
-title:  "Gençler İçin Kudüs ve Filistin Hz. Ömerden Günümüze"
-img: "assets/images/slides/5.jpg"
-mobile-img: "assets/images/slides/5m.jpg"
-href: "kitaplar/gencler-icin-kudus-filistin-hz-omerden-gunumuze"
-target: #"_blank"
+title:  "Endülüs"
+img: "assets/images/slides/7.jpg"
+mobile-img: "assets/images/slides/1m.jpg"
+href: "#"
+target: "" # _blank
 ---
