@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 3
 title:  "Gençler İçin Kudüs ve Filistin Hz. Ömerden Günümüze"
 img: "assets/images/slides/5.jpg"
 mobile-img: "assets/images/slides/5m.jpg"
