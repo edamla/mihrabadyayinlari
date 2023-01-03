@@ -4,7 +4,7 @@ title: "Mehmet Ali Sarı Gönenli Mehmet Efendi'yi Anlatıyor"
 # author: damlayayinevi
 categories: [ Kültür ]
 featured: true
-tags: [Üstün İnanç, Tez]
+tags: []
 image: assets/images/posts/mehmet-ali-sari-gonenli-mehmet-efendi-yad-etti.png
 rating: 4.5
 ---
