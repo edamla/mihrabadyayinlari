@@ -4,7 +4,7 @@ title: "1939'dan 2023'e büyük felaket!"
 # author: damlayayinevi
 categories: [ Kültür ]
 featured: true
-tags: [Üstün İnanç, Abdülhamid]
+tags: [Nurettin Taşkesen, Deprem, Doğal Afet]
 image: assets/images/posts/1939dan-2023e-buyuk-felaket.jpg
 rating: 4.5
 ---
