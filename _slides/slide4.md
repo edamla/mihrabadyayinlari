@@ -1,8 +1,8 @@
 ---
 order: 4
-title:  "3 Kitap Bir Arada"
-img: "assets/images/slides/1.jpg"
-mobile-img: "assets/images/slides/1m.jpg"
-href: "kitaplar/"
-target: #"_blank"
+title:  "Mehmet Ali Sarı Anılar"
+img: "assets/images/slides/3.jpg"
+mobile-img: "assets/images/slides/3m.jpg"
+href: "https://www.youtube.com/watch?v=XD6zi7jITHo"
+target: "_blank" # 
 ---

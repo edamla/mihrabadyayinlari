@@ -1,8 +1,8 @@
 ---
-order: 2
-title:  "Anıların İzinde"
-img: "assets/images/slides/3.jpg"
-mobile-img: "assets/images/slides/3m.jpg"
-href: "https://www.youtube.com/watch?v=XD6zi7jITHo"
-target: "" _blank
+order: 3
+title:  "Anadolu Selçuklu Sultanları"
+img: "assets/images/slides/2.jpg"
+mobile-img: "assets/images/slides/2m.jpg"
+href: "kitaplar/anadolu-selcuklu-sultanlari"
+target: "" # _blank
 ---
