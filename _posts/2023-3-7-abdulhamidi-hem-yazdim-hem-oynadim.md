@@ -126,3 +126,5 @@ Lisenin ardından İstanbul İktisat Fakültesi Gazetecilik Enstitüsü’nden m
 
 **Son Kuşlar setinde tanıştık**
 Son Kuşlar filminin senaryo grubunda yer alan İnanç, burada uzun yıllar dost kalacağı Ayşe Şasa ile tanışmış. Senaryoyu birlikte kaleme almışlar. Zaman zaman kendisine takılır, laf atarmış. Şasa da kendini savunmaya çalışırmış. “Entelektüel ve zengin bir aileden gelmişti. Ötekiler kadar hırslı ve muhtaç değildi. Müthiş bir arayışı vardı” diyerek anlatıyor Şasa’yı. Kendisine zaman zaman Sezai Karakoç’un Diriliş’ini getirirmiş. Birgün Şasa’nin elinde Diriliş’i gören Kemal Tahir, “Ne yapıyorsun Ayşe?” diye sormuş. O da, “Ağabey faşist bir arkadaş var, bana bunları veriyor” demiş. İrtibatları kimi zaman yüz yüze kimi zaman telefonda Şasa’nın vefatına kadar devam etmiş. Şasa da “Ruh Macerası” kitabında “Bana ilk tebliğ yapan Üstün İnanç’tır” diye kendisinden bahsetmiş.
+
+**Kaynak:** <a href="https://www.yenisafak.com/hayat/abdulhamidi-hem-yazdim-hem-de-oynadim-ben-her-seyimle-buyuk-dogucuyum-4507024" target="_blank">Yeni Şafak</a>
