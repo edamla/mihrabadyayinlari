@@ -22,7 +22,6 @@ Fransa'dan Çin'e davet edilip tutuklanan, sorgulanan ve istismar edilen Uygur y
   <source src="/assets/images/posts/uygur-yazari-haitiwaji-2-yil-esir-tutuldugu-kampi-anlatti1.mp4" type="video/mp4">
 </video>
 
-
 <video width="400" controls>
   <source src="/assets/images/posts/uygur-yazari-haitiwaji-2-yil-esir-tutuldugu-kampi-anlatti2.mp4" type="video/mp4">
 </video>
