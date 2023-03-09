@@ -4,7 +4,7 @@ title: "Uygur yazar Haitiwaji, 2 yıl esir tutulduğu kamp hayatını anlattı"
 # author: damlayayinevi
 categories: [ Kültür ]
 featured: true
-tags: [Çin Kampından Nasıl Kurtuldum?, Uygur yazar Haitiwaji]
+tags: ["Çin Kampından Nasıl Kurtuldum?", "Uygur yazar Haitiwaji"]
 image: assets/images/posts/uygur-yazari-haitiwaji-2-yil-esir-tutuldugu-kampi-anlatti.jpg
 rating: 4.5
 ---
