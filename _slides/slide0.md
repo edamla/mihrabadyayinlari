@@ -1,8 +1,8 @@
 ---
 order: 1
 title:  ""
-img: "assets/images/slides/6.jpg"
-mobile-img: "assets/images/slides/6m.jpg"
+img: "assets/images/slides/5.jpg"
+mobile-img: "assets/images/slides/5m.jpg"
 href: "#"
 target: #"_blank"
 ---
