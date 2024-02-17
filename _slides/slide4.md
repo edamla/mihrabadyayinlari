@@ -1,5 +1,5 @@
 ---
-order: 4
+order: 5
 title:  "3 Kitap Bir Arada"
 img: "assets/images/slides/1.jpg"
 mobile-img: "assets/images/slides/1m.jpg"

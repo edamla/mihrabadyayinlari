@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 3
 title:  "Anıların İzinde"
 img: "assets/images/slides/6.jpg"
 mobile-img: "assets/images/slides/3m.jpg"
