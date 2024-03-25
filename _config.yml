@@ -38,7 +38,7 @@ buyout:
   odatvkitap: false
   bkmkitap: true
   amazontr: true
-  dkitap: true
+  dkitap: false
   trendyol: true
   gittigidiyor: true
 
