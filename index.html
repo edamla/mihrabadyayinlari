@@ -14,6 +14,31 @@ description: "Medeniyetimizin izinde!"
 <!-- slider -->
 {% include slider.html %}
 
+{% assign books = site.books %}
+{% include product-slider.html %}
+
+<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
+{% for post in site.posts %} 
+{% if post.sticky %}
+<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
+    <div class="pl-4 pr-0 h-100 tofront">
+        <div class="row justify-content-between">
+            <div class="col-md-6 pt-5 pb-5 pr-lg-4 align-self-center">
+                <h1 class="mb-3">{{post.title}}</h1>
+                <p class="mb-3 lead">
+                    <!-- {{ post.excerpt | strip_html | strip_newlines | truncate: 146 }} -->
+                    {{ post.excerpt | strip_html | strip_newlines }}
+                </p>
+                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Devamını oku</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
+            </div>
+        </div>
+    </div>
+</div> 
+{% endif %}
+{% endfor %}
+
 <!-- Begin post excerpts, let's highlight the first 4 posts on top -->
 <div class="row add-site-content-margin">
     
@@ -190,30 +215,9 @@ description: "Medeniyetimizin izinde!"
     
 </div>
 
-{% assign books = site.books %}
-{% include product-slider.html %}
+
    
-<!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% for post in site.posts %} 
-{% if post.sticky %}
-<div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
-    <div class="pl-4 pr-0 h-100 tofront">
-        <div class="row justify-content-between">
-            <div class="col-md-6 pt-5 pb-5 pr-lg-4 align-self-center">
-                <h1 class="mb-3">{{post.title}}</h1>
-                <p class="mb-3 lead">
-                    <!-- {{ post.excerpt | strip_html | strip_newlines | truncate: 146 }} -->
-                    {{ post.excerpt | strip_html | strip_newlines }}
-                </p>
-                <a href="{{site.baseurl}}{{post.url}}" class="btn btn-dark">Devamını oku</a>
-            </div>
-            <div class="col-md-6 d-none d-md-block pr-0" style="background-size:cover;background-image:url({{site.baseurl}}/{{ post.image }});">	
-            </div>
-        </div>
-    </div>
-</div> 
-{% endif %}
-{% endfor %}
+
 
 
 
