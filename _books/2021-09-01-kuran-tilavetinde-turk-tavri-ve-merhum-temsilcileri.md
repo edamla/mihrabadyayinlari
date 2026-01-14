@@ -28,7 +28,7 @@ odatvkitap: #"https://www.odatvkitap.com.tr"
 bkmkitap: #"https://www.bkmkitap.com/abdulhamidin-kurtlarla-dansi-578226"
 amazontr: #"https://www.amazon.com.tr"
 dkitap: #"https://www.dkitap.com/egenin-efeleri"
-damlayayinevi: "https://www.damlayayinevi.com.tr/kur-an-tilavetinde-turk-tavri-ve-merhum-temsilcileri"
+damlayayinevi: "https://www.damlayayinevi.com.tr/kuran-tilavetinde-turk-tavri-ve-merhum-temsilcileri"
 
 # For adding excerpt add <!--more--> and break the line
 ---

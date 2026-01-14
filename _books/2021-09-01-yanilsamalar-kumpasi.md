@@ -1,10 +1,10 @@
 ---
 layout: book
-title:  "Kış Bebeği"
+title:  "Yanılsamalar Kumpanyası"
 authors: ["murat-basaran"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/9786058301931.jpg
+image: assets/images/ean/9786058301931.png
 categories: [ "Kültür", "Roman" ]
 tags: [ "tarih"]
 previewpage: true

@@ -1,0 +1,160 @@
+
+<!-- blog bölümü -->
+
+<div class="row add-site-content-margin">
+    <!-- soldaki 3 -->
+    <div class="col-md-6">
+        
+        <!-- first latest post -->
+        {%- assign first_post = site.posts[0] -%}        
+        <div class="mb-3 post-card-row">
+                {% if first_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{first_post.url}}" class="post-thumb-container">
+                     <img src="{% if first_post.image contains "://" %}{{ first_post.image }}{% else %}{{ first_post.image | absolute_url }}{% endif %}" alt="{{ first_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{first_post.url}}">{{ first_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in first_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+        <!-- second latest post -->
+        {%- assign second_post = site.posts[1] -%}        
+        <div class="mb-3 post-card-row">
+                {% if second_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{second_post.url}}" class="post-thumb-container">
+                     <img src="{% if second_post.image contains "://" %}{{ second_post.image }}{% else %}{{ second_post.image | absolute_url }}{% endif %}" alt="{{ second_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in second_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+        <!-- third latest post -->
+        {%- assign third_post = site.posts[2] -%}        
+        <div class="mb-3 post-card-row">
+                {% if third_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{third_post.url}}" class="post-thumb-container">
+                     <img src="{% if third_post.image contains "://" %}{{ third_post.image }}{% else %}{{site.baseurl}}/{{ third_post.image }}{% endif %}" alt="{{ third_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in third_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+    </div>
+    <!-- sağdaki 3 -->
+    <div class="col-md-6">
+        
+        <!-- fourth latest post -->
+        {%- assign fourth_post = site.posts[3] -%}        
+        <div class="mb-3 post-card-row">
+                {% if fourth_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{fourth_post.url}}" class="post-thumb-container">
+                     <img src="{% if fourth_post.image contains "://" %}{{ fourth_post.image }}{% else %}{{ fourth_post.image | absolute_url }}{% endif %}" alt="{{ fourth_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in fourth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+        <!-- fifth latest post -->
+        {%- assign fifth_post = site.posts[4] -%}        
+        <div class="mb-3 post-card-row">
+                {% if fifth_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{fifth_post.url}}" class="post-thumb-container">
+                     <img src="{% if fifth_post.image contains "://" %}{{ fifth_post.image }}{% else %}{{site.baseurl}}/{{ fifth_post.image }}{% endif %}" alt="{{ fifth_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{fifth_post.url}}">{{ fifth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in fifth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+        <!-- sixth latest post -->
+        {%- assign sixth_post = site.posts[5] -%}        
+        <div class="mb-3 post-card-row">
+                {% if sixth_post.image %}
+                <div class="post-thumb-col">
+                    <a href="{{site.baseurl}}{{sixth_post.url}}" class="post-thumb-container">
+                    <img src="{% if sixth_post.image contains "://" %}{{ sixth_post.image }}{% else %}{{site.baseurl}}/{{ sixth_post.image }}{% endif %}" alt="{{ sixth_post.title }}">
+                    </a>
+                </div>
+                {% endif %}
+                <div class="post-content-col">
+                    <h2 class="mb-2 h6 font-weight-bold">
+                    <a class="text-dark" href="{{site.baseurl}}{{sixth_post.url}}">{{ sixth_post.title }}</a>
+                    </h2>
+                    <small class="d-block text-muted">
+                        Kategori: <span class="catlist">
+                        {% for category in sixth_post.categories %}
+                        <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/kategoriler.html#{{ category | downcase | slugify }}">{{ category }}</a><span class="sep">, </span>
+                        {% endfor %}
+                        </span>                   
+                    </small>
+                </div>
+            </div>
+        
+    </div>
+    
+</div>
+<!-- blog bölümü end -->
+   

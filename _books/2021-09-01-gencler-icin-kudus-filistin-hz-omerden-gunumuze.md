@@ -8,6 +8,7 @@ image: assets/images/ean/9786057195302.jpg
 categories: [ "Kültür", "Araştırma" , "İnceleme" ]
 tags: [ "tarih"]
 previewpage: true
+featured: false
 
 # Book attributes
 ean: 9786057195302

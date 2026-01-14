@@ -8,6 +8,7 @@ image: assets/images/ean/9786056725180.jpg
 categories: [ "Kültür", "Roman" ]
 tags: [ "biyografi"]
 previewpage: true
+featured: true
 
 # Book attributes
 ean: 9786056725180

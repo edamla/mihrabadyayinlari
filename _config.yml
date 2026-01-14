@@ -8,7 +8,8 @@ baseurl: ''
 
 # Social Settings
 disqus: #'demowebsite'
-email: 'iletisim@damlayayinevi.com.tr'
+email: 'iletisim@mihrabadyayinlari.com'
+phone: '+902125142828'
 mailchimp-list: #'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 google_analytics: 'G-TH2P889EDC'
 katalogurl: 'https://cdn.e-damla.com.tr/PUBLIC/Kataloglar/mihrabad-yayinlari/index.html'
@@ -31,16 +32,16 @@ buyout:
   enabled: true
   #buyout websites:
   damlayayinevi: true
-  hepsiburada: true
-  dnr: true
-  idefix: true
-  kitapyurdu: true
+  hepsiburada: false
+  dnr: false
+  idefix: false
+  kitapyurdu: false
   odatvkitap: false
-  bkmkitap: true
-  amazontr: true
+  bkmkitap: false
+  amazontr: false
   dkitap: false
-  trendyol: true
-  gittigidiyor: true
+  trendyol: false
+  gittigidiyor: false
 
 # Plugins
 plugins: 

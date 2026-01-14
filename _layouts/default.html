@@ -39,6 +39,12 @@
     <!-- Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
+    <!-- Vogun Font (Başlıklar, Menüler, Arayüz) -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/font/vogun/style.css">
+
+    <!-- Minion Pro Font (İçerik, Paragraflar) -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/font/minion-pro/style.css">
+
     <!-- Bootstrap Modified -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
@@ -69,16 +75,10 @@
         <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse collapse" id="navbarColor02">
-            <ul class="navbar-nav mr-auto d-flex align-items-center">
+            <ul class="navbar-nav mr-auto d-flex align-items-center flex-grow-1 justify-content-between">
                {% include menu-header.html %}
             </ul>
-            <ul class="navbar-nav d-md-flex d-none flex-row" style="justify-content: center;">
-                {% include menu-socialmedia.html %}
-            </ul>
-            <ul class="navbar-nav justify-content-center d-md-none d-flex flex-row mobil">
-                {% include menu-socialmedia.html %}
-            </ul>
-            <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <ul class="navbar-nav ml-auto d-flex align-items-center justify-content-end">
                 {% include search-lunr.html %}
             </ul>
         </div>
@@ -104,21 +104,7 @@
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
 
-    <!-- Footer -->
-    <footer class="border-top p-3 text-white small" style="background-color: #25272a">
-        <div class="container">
-        <div class="row justify-content-center">
-            <span class="navbar-brand mr-2 mb-0 text-center"><img style="max-height: 70px;" src="{{site.baseurl}}/assets/images/logo-bw.png"></span>
-        </div>
-        <div class="row align-items-center justify-content-center">
-            <div>
-                <span class="navbar-brand mr-2 mb-0"></span>
-                <span class="text-center">Copyright © <script>document.write(new Date().getFullYear())</script> {{site.name}}, Damla Yayınevi'nin Tescilli Markasıdır.</span>
-
-            </div>
-        </div>
-        </div>
-    </footer>
+    {% include footer.html %}
 
     {% include tracking-footer.html %}
 

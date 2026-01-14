@@ -1,0 +1,123 @@
+/* ===================================
+   Minion Pro Font Ailesi
+   Site genelinde kullanılan ana font
+   =================================== */
+
+/* Regular (400) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Minion Pro'), local('MinionPro-Regular'),
+         url('MinionPro-Regular.woff') format('woff'),
+         url('MinionPro-Regular.otf') format('opentype');
+}
+
+/* Regular Italic (400 italic) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Minion Pro Italic'), local('MinionPro-It'),
+         url('MinionPro-It.woff') format('woff'),
+         url('MinionPro-It.otf') format('opentype');
+}
+
+/* Medium (500) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Minion Pro Medium'), local('MinionPro-Medium'),
+         url('MinionPro-Medium.woff') format('woff'),
+         url('MinionPro-Medium.otf') format('opentype');
+}
+
+/* Medium Italic (500 italic) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Minion Pro Medium Italic'), local('MinionPro-MediumIt'),
+         url('MinionPro-MediumIt.woff') format('woff'),
+         url('MinionPro-MediumIt.otf') format('opentype');
+}
+
+/* Semibold (600) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Minion Pro Semibold'), local('MinionPro-Semibold'),
+         url('MinionPro-Semibold.woff') format('woff'),
+         url('MinionPro-Semibold.otf') format('opentype');
+}
+
+/* Semibold Italic (600 italic) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Minion Pro Semibold Italic'), local('MinionPro-SemiboldIt'),
+         url('MinionPro-SemiboldIt.woff') format('woff'),
+         url('MinionPro-SemiboldIt.otf') format('opentype');
+}
+
+/* Bold (700) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Minion Pro Bold'), local('MinionPro-Bold'),
+         url('MinionPro-Bold.woff') format('woff'),
+         url('MinionPro-Bold.otf') format('opentype');
+}
+
+/* Bold Italic (700 italic) */
+@font-face {
+    font-family: 'Minion Pro';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Minion Pro Bold Italic'), local('MinionPro-BoldIt'),
+         url('MinionPro-BoldIt.woff') format('woff'),
+         url('MinionPro-BoldIt.otf') format('opentype');
+}
+
+/* Bold Condensed */
+@font-face {
+    font-family: 'Minion Pro Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Minion Pro Bold Condensed'), local('MinionPro-BoldCn'),
+         url('MinionPro-BoldCn.woff') format('woff'),
+         url('MinionPro-BoldCn.otf') format('opentype');
+}
+
+/* Bold Condensed Italic */
+@font-face {
+    font-family: 'Minion Pro Condensed';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Minion Pro Bold Condensed Italic'), local('MinionPro-BoldCnIt'),
+         url('MinionPro-BoldCnIt.woff') format('woff'),
+         url('MinionPro-BoldCnIt.otf') format('opentype');
+}
+
+/* ===================================
+   CSS Değişkenleri
+   Kolay kullanım için font stack'leri
+   =================================== */
+:root {
+    --font-minion: 'Minion Pro', Georgia, 'Times New Roman', Times, serif;
+    --font-minion-condensed: 'Minion Pro Condensed', 'Minion Pro', Georgia, serif;
+}

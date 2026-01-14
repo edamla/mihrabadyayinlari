@@ -8,11 +8,9 @@ permalink: "/kitaplar"
 
     <h4 class="font-weight-bold spanborder"><span>Yeni Çıkanlar</span></h4>
     {% assign bookarray = "" | split: ',' %}
-    {% assign sortedarray = "" | split: ',' %}
+    {% assign featuredBooks = site.books | where: "featured", true | sort: "publish-number" | reverse %}
     
-    {% assign sortedarray = site.books | sort: "publish-number" | reverse %}
-    
-    {% for book in sortedarray limit:10 %}
+    {% for book in featuredBooks limit:10 %}
         {% assign bookarray = bookarray | push: book %}
     {% endfor %}
     
@@ -21,24 +19,22 @@ permalink: "/kitaplar"
     
     <h4 class="font-weight-bold spanborder mt-3"><span>{{page.title}}</span></h4>
         <div class="row gap-y listrecent listrecent listauthor">
-        {% assign groupbooks = site.books | group_by: "authors" | sort: "name" %}
+        {% assign arraybooks = site.books | sort: "publish-number" | reverse %}
     
-        {% for author in groupbooks %}
-            {% assign books = author.items | sort: "url" %}
-            {% for book in books %}
-    
-            <div class="col-12 col-sm-3 p-4 border rounded kitap-kutu">
-                <a class="baslik-link" href="{{ book.url }}"">            
-                    <img class="cover-images" src="{{site.baseurl}}/{{ book.image }}" alt="">
-                    <h4 class="text-dark mb-0"> {{ book.title }} </h4>
-                    {% for bookauthor in book.authors %}
-                    {% assign siteauthor = site.authors | where:"key", bookauthor | first %}
-                        <h5 class="d-inline-block mt-2 mb-1 font-weight-normal">{{siteauthor.title}}</h5>
-                        {% if forloop.last == false %} - {% endif %}
-                    {% endfor %}
-                </a>
-            </div>  
-            {% endfor %}
+        {% for book in arraybooks %}
+            
+        <div class="col-12 col-sm-3 p-4 border rounded kitap-kutu">
+            <a class="baslik-link" href="{{ book.url }}"">            
+                <img class="cover-images" src="{{site.baseurl}}/{{ book.image }}" alt="">
+                <h4 class="text-dark mb-0"> {{ book.title }} </h4>
+                {% for bookauthor in book.authors %}
+                {% assign siteauthor = site.authors | where:"key", bookauthor | first %}
+                    <h5 class="d-inline-block mt-2 mb-1 font-weight-normal">{{siteauthor.title}}</h5>
+                    {% if forloop.last == false %} - {% endif %}
+                {% endfor %}
+            </a>
+        </div>  
         {% endfor %}
-        </div>
     </div>
+</div>
+</div>

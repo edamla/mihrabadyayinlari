@@ -2,33 +2,52 @@
 
 <script>
 $(function() {
-    $("#lunrsearchresults").on('click', '#btnx', function () {
-        $('#lunrsearchresults').hide( 1000 );
-        $( "body" ).removeClass( "modal-open" );
+    // ESC tuşu ile kapatma
+    $(document).on('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeSpotlight();
+        }
+    });
+    
+    // Backdrop'a tıklayınca kapatma
+    $("#lunrsearchresults").on('click', function(e) {
+        if (e.target === this || $(e.target).hasClass('spotlight-backdrop')) {
+            closeSpotlight();
+        }
+    });
+    
+    // Kapatma butonları
+    $("#lunrsearchresults").on('click', '.spotlight-close', function() {
+        closeSpotlight();
     });
 });
+
+function closeSpotlight() {
+    $('#lunrsearchresults').fadeOut(200);
+    $('body').removeClass('spotlight-open');
+    // Typing efektini durdur
+    if (typeof spotlightTypingInterval !== 'undefined' && spotlightTypingInterval) {
+        clearTimeout(spotlightTypingInterval);
+        spotlightTypingInterval = null;
+    }
+}
     
 {% assign counter = 0 %}
-var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
+var documents = [{% for book in site.books %}{
     "id": {{ counter }},
-    "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
-    "id": {{ counter }},
-    "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endfor %}{% for page in site.posts %}{
-    "id": {{ counter }},
-    "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
-    "title": "{{ page.title }}",
-    "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+    "url": "{{ site.url }}{{site.baseurl}}{{ book.url }}",
+    "title": "{{ book.title }}",
+    "image": "{{ site.url }}{{site.baseurl}}/{{ book.image }}",
+    "authors": "{% for author_slug in book.authors %}{% assign author = site.authors | where: 'slug', author_slug | first %}{% if author %}{{ author.title }}{% else %}{{ author_slug }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}",
+    "categories": "{{ book.categories | join: ', ' }}",
+    "body": "{{ book.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
+    }{% unless forloop.last %}, {% endunless %}{% endfor %}];
 
 var idx = lunr(function () {
     this.ref('id')
-    this.field('title')
+    this.field('title', { boost: 10 })
+    this.field('authors', { boost: 5 })
+    this.field('categories', { boost: 3 })
     this.field('body')
 
     documents.forEach(function (doc) {
@@ -39,43 +58,649 @@ var idx = lunr(function () {
 
     
 function lunr_search(term) {
-    $('#lunrsearchresults').show( 1000 );
-    $( "body" ).addClass( "modal-open" );
+    $('#lunrsearchresults').fadeIn(200);
+    $('body').addClass('spotlight-open');
     
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Kapat</button></div></div> </div></div>';
-    if(term) {
-        document.getElementById('modtit').innerHTML = "<h5 class='modal-title'>Arama sonuçları: '" + term + "'</h5>" + document.getElementById('modtit').innerHTML;
-        //put results on the screen.
-        var results = idx.search(term);
-        if(results.length>0){
-            //console.log(idx.search(term));
-            //if results
-            for (var i = 0; i < results.length; i++) {
-                // more statements
-                var ref = results[i]['ref'];
-                var url = documents[ref]['url'];
-                var title = documents[ref]['title'];
-                var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title + "</span><br /><small><span class='body'>"+ body +"</span><br /><span class='url'>"+ url +"</span></small></a></li>";
+    var spotlightHTML = `
+        <div class="spotlight-backdrop">
+            <div class="spotlight-container">
+                <div class="spotlight-header">
+                    <div class="spotlight-search-box">
+                        <i class="fa fa-search spotlight-icon"></i>
+                        <input type="text" id="spotlight-input" value="${term || ''}" placeholder="Kitap ara..." autofocus>
+                        <span class="spotlight-shortcut">ESC</span>
+                    </div>
+                </div>
+                <div class="spotlight-results">
+                    <div class="spotlight-results-header">
+                        <span class="spotlight-category-title"><i class="fa fa-book"></i> Kitaplar</span>
+                    </div>
+                    <ul class="spotlight-list"></ul>
+                </div>
+                <div class="spotlight-footer">
+                    <span><i class="fa fa-arrow-up"></i><i class="fa fa-arrow-down"></i> gezin</span>
+                    <span><i class="fa fa-level-down fa-rotate-90"></i> aç</span>
+                    <span class="spotlight-close"><i class="fa fa-times"></i> kapat</span>
+                </div>
+            </div>
+        </div>
+    `;
+    
+    document.getElementById('lunrsearchresults').innerHTML = spotlightHTML;
+    
+    // Input'a odaklan ve event listener ekle
+    var spotlightInput = document.getElementById('spotlight-input');
+    spotlightInput.focus();
+    
+    // Spotlight için typing efekti başlat
+    startSpotlightTyping(spotlightInput);
+    
+    spotlightInput.addEventListener('input', function() {
+        performSearch(this.value);
+    });
+    spotlightInput.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            var firstResult = document.querySelector('.spotlight-item a');
+            if (firstResult) {
+                window.location.href = firstResult.href;
             }
-        } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>Üzgünüz, hiç sonuç bulunamadı. Kapatık tekrar farklı bir arama deneyin!</li>";
         }
+    });
+    
+    if(term) {
+        performSearch(term);
+    } else {
+        showAllBooks();
     }
+    
     return false;
 }
+
+function showAllBooks() {
+    var listEl = document.querySelector('.spotlight-list');
+    var html = '';
+    var limit = Math.min(documents.length, 8);
+    
+    for (var i = 0; i < limit; i++) {
+        html += createResultItem(documents[i], i);
+    }
+    
+    listEl.innerHTML = html;
+    updateResultsHeader(documents.length, 'Tüm Kitaplar');
+}
+
+function performSearch(term) {
+    var listEl = document.querySelector('.spotlight-list');
+    
+    if (!term || term.length < 1) {
+        showAllBooks();
+        return;
+    }
+    
+    var results = idx.search(term + '*');
+    
+    if (results.length > 0) {
+        var html = '';
+        for (var i = 0; i < results.length; i++) {
+            var ref = results[i]['ref'];
+            var doc = documents[ref];
+            html += createResultItem(doc, i);
+        }
+        listEl.innerHTML = html;
+        updateResultsHeader(results.length, "'" + term + "' için sonuçlar");
+    } else {
+        listEl.innerHTML = `
+            <li class="spotlight-empty">
+                <i class="fa fa-search"></i>
+                <span>Sonuç bulunamadı</span>
+                <small>Farklı anahtar kelimeler deneyin</small>
+            </li>
+        `;
+        updateResultsHeader(0, 'Sonuç yok');
+    }
+}
+
+function createResultItem(doc, index) {
+    var body = doc.body.substring(0, 80) + '...';
+    return `
+        <li class="spotlight-item" style="animation-delay: ${index * 0.03}s">
+            <a href="${doc.url}">
+                <div class="spotlight-item-icon">
+                    <img src="${doc.image}" alt="${doc.title}" onerror="this.parentElement.innerHTML='<i class=\\'fa fa-book\\'></i>'">
+                </div>
+                <div class="spotlight-item-content">
+                    <div class="spotlight-item-title">${doc.title}</div>
+                    <div class="spotlight-item-subtitle">${doc.authors}</div>
+                    <div class="spotlight-item-meta">${doc.categories}</div>
+                </div>
+                <div class="spotlight-item-action">
+                    <i class="fa fa-chevron-right"></i>
+                </div>
+            </a>
+        </li>
+    `;
+}
+
+function updateResultsHeader(count, text) {
+    var header = document.querySelector('.spotlight-category-title');
+    if (header) {
+        header.innerHTML = `<i class="fa fa-book"></i> ${text} <span class="spotlight-count">${count}</span>`;
+    }
+}
 </script>
+
 <style>
-    .lunrsearchresult .title {color: #d9230f;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
+/* Spotlight Backdrop */
+body.spotlight-open {
+    overflow: hidden;
+}
+
+#lunrsearchresults {
+    display: none;
+}
+
+.spotlight-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    animation: spotlightFadeIn 0.2s ease;
+}
+
+@keyframes spotlightFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Spotlight Container */
+.spotlight-container {
+    width: 680px;
+    max-width: 90vw;
+    max-height: 70vh;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 
+        0 25px 50px -12px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    animation: spotlightSlideIn 0.25s ease;
+}
+
+@keyframes spotlightSlideIn {
+    from { 
+        opacity: 0;
+        transform: scale(0.96) translateY(-10px);
+    }
+    to { 
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Search Header */
+.spotlight-header {
+    padding: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.spotlight-search-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+.spotlight-icon {
+    color: #86868b;
+    font-size: 18px;
+}
+
+.spotlight-search-box input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1d1d1f;
+    outline: none;
+}
+
+.spotlight-search-box input::placeholder {
+    color: #86868b;
+}
+
+.spotlight-shortcut {
+    background: rgba(0, 0, 0, 0.06);
+    color: #86868b;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-family: 'Vogun', Georgia, serif;
+}
+
+/* Results Section */
+.spotlight-results {
+    flex: 1;
+    overflow-y: auto;
+    padding: 8px 0;
+}
+
+.spotlight-results-header {
+    padding: 8px 20px;
+}
+
+.spotlight-category-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #86868b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.spotlight-category-title i {
+    margin-right: 6px;
+}
+
+.spotlight-count {
+    background: rgba(0, 0, 0, 0.08);
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-left: 8px;
+    font-size: 11px;
+}
+
+.spotlight-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Result Items */
+.spotlight-item {
+    animation: spotlightItemIn 0.2s ease forwards;
+    opacity: 0;
+}
+
+@keyframes spotlightItemIn {
+    from { 
+        opacity: 0;
+        transform: translateY(4px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.spotlight-item a {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background 0.15s ease;
+    border-radius: 8px;
+    margin: 0 8px;
+}
+
+.spotlight-item a:hover {
+    background: rgba(0, 122, 255, 0.1);
+}
+
+.spotlight-item-icon {
+    width: 48px;
+    height: 64px;
+    border-radius: 6px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.spotlight-item-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.spotlight-item-icon i {
+    color: white;
+    font-size: 20px;
+}
+
+.spotlight-item-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.spotlight-item-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d1d1f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+}
+
+.spotlight-item-subtitle {
+    font-size: 12px;
+    color: #6e6e73;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spotlight-item-meta {
+    font-size: 11px;
+    color: #86868b;
+    margin-top: 2px;
+}
+
+.spotlight-item-action {
+    color: #c7c7cc;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.spotlight-item a:hover .spotlight-item-action {
+    opacity: 1;
+}
+
+/* Empty State */
+.spotlight-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 20px;
+    color: #86868b;
+}
+
+.spotlight-empty i {
+    font-size: 32px;
+    margin-bottom: 12px;
+    opacity: 0.5;
+}
+
+.spotlight-empty span {
+    font-size: 15px;
+    font-weight: 500;
+    color: #6e6e73;
+}
+
+.spotlight-empty small {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* Footer */
+.spotlight-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 12px 20px;
+    background: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.spotlight-footer span {
+    font-size: 11px;
+    color: #86868b;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.spotlight-footer i {
+    font-size: 10px;
+}
+
+.spotlight-close {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.spotlight-close:hover {
+    color: #d9230f;
+}
+
+/* Scrollbar Styling */
+.spotlight-results::-webkit-scrollbar {
+    width: 6px;
+}
+
+.spotlight-results::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.spotlight-results::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+.spotlight-results::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.25);
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .spotlight-container {
+        background: rgba(30, 30, 32, 0.95);
+    }
+    
+    .spotlight-search-box {
+        background: rgba(255, 255, 255, 0.08);
+    }
+    
+    .spotlight-search-box input {
+        color: #f5f5f7;
+    }
+    
+    .spotlight-item-title {
+        color: #f5f5f7;
+    }
+    
+    .spotlight-item-subtitle {
+        color: #a1a1a6;
+    }
+    
+    .spotlight-footer {
+        background: rgba(255, 255, 255, 0.03);
+        border-top-color: rgba(255, 255, 255, 0.08);
+    }
+    
+    .spotlight-shortcut {
+        background: rgba(255, 255, 255, 0.1);
+    }
+}
 </style>
 
-
-
-
-<form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-<input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Arama..."> 
+<!-- Arama Formu -->
+<form class="bd-search hidden-sm-down" style="margin-left: 2rem;" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+<div class="search-trigger-wrapper">
+    <i class="fa fa-search search-trigger-icon"></i>
+    <input type="text" class="form-control search-trigger-input" id="lunrsearch" name="q" value="" placeholder="Kitap ara..." readonly onclick="lunr_search('')">
+    <span class="search-trigger-shortcut">⌘K</span>
+</div>
 </form>
+
+<style>
+/* Arama Trigger Butonu - Spotlight Tarzı */
+.search-trigger-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 8px 14px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 220px;
+}
+
+.search-trigger-wrapper:hover {
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.12);
+}
+
+.search-trigger-icon {
+    color: #86868b;
+    font-size: 14px;
+}
+
+.search-trigger-input {
+    flex: 1;
+    border: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    font-size: 14px;
+    color: #86868b;
+    cursor: pointer;
+    box-shadow: none !important;
+}
+
+.search-trigger-input:focus {
+    outline: none;
+}
+
+.search-trigger-shortcut {
+    background: rgba(0, 0, 0, 0.06);
+    color: #86868b;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-family: 'Vogun', Georgia, serif;
+}
+</style>
+
+<script>
+// Klavye kısayolu (Cmd/Ctrl + K)
+document.addEventListener('keydown', function(e) {
+    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        lunr_search('');
+    }
+});
+
+// Yazar isimleri listesi
+var authorNames = [
+    {% for author in site.authors %}"{{ author.title }}"{% unless forloop.last %}, {% endunless %}{% endfor %}
+];
+
+// Spotlight modal için typing efekti
+var spotlightTypingInterval = null;
+function startSpotlightTyping(inputEl) {
+    if (spotlightTypingInterval) {
+        clearTimeout(spotlightTypingInterval);
+    }
+    
+    var phrases = authorNames.map(function(name) {
+        return '"' + name + '" ara...';
+    });
+    
+    var currentIndex = Math.floor(Math.random() * phrases.length);
+    var isDeleting = false;
+    var charIndex = 0;
+    
+    function typeSpotlight() {
+        // Eğer kullanıcı yazmaya başladıysa typing'i durdur
+        if (inputEl.value.length > 0) {
+            inputEl.placeholder = 'Kitap ara...';
+            return;
+        }
+        
+        var fullText = phrases[currentIndex];
+        
+        if (isDeleting) {
+            charIndex--;
+        } else {
+            charIndex++;
+        }
+        
+        inputEl.placeholder = fullText.substring(0, charIndex);
+        
+        var nextDelay = isDeleting ? 35 : 70;
+        
+        if (!isDeleting && charIndex === fullText.length) {
+            nextDelay = 2000;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            currentIndex = Math.floor(Math.random() * phrases.length);
+            nextDelay = 400;
+        }
+        
+        spotlightTypingInterval = setTimeout(typeSpotlight, nextDelay);
+    }
+    
+    setTimeout(typeSpotlight, 300);
+}
+
+// Trigger input için typing efekti
+(function() {
+    var searchPhrases = authorNames.map(function(name) {
+        return '"' + name + '" ara...';
+    });
+    
+    var inputEl = document.getElementById('lunrsearch');
+    if (!inputEl) return;
+    
+    var currentIndex = Math.floor(Math.random() * searchPhrases.length);
+    var currentText = '';
+    var isDeleting = false;
+    var charIndex = 0;
+    var typeSpeed = 80;
+    var deleteSpeed = 40;
+    var pauseTime = 2500;
+    
+    function type() {
+        var fullText = searchPhrases[currentIndex];
+        
+        if (isDeleting) {
+            currentText = fullText.substring(0, charIndex - 1);
+            charIndex--;
+        } else {
+            currentText = fullText.substring(0, charIndex + 1);
+            charIndex++;
+        }
+        
+        inputEl.placeholder = currentText;
+        
+        var nextDelay = isDeleting ? deleteSpeed : typeSpeed;
+        
+        if (!isDeleting && charIndex === fullText.length) {
+            nextDelay = pauseTime;
+            isDeleting = true;
+        } else if (isDeleting && charIndex === 0) {
+            isDeleting = false;
+            currentIndex = Math.floor(Math.random() * searchPhrases.length);
+            nextDelay = 500;
+        }
+        
+        setTimeout(type, nextDelay);
+    }
+    
+    // Başlangıç gecikmesi
+    setTimeout(type, 1000);
+})();
+</script>

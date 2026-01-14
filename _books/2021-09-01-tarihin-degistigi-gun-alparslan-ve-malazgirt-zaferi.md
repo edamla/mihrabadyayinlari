@@ -1,10 +1,10 @@
 ---
 layout: book
-title:  "Alparslan ve Malazgirt Zaferi"
+title:  "Tarihin Değiştiği Gün Alparslan ve Malazgirt Zaferi"
 authors: ["sara-gurbuz-ozeren"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
-image: assets/images/ean/9786056846267.jpg
+image: assets/images/ean/9786056846267.png
 categories: [ "Kültür", "Roman" ]
 tags: [ "tarih"]
 previewpage: true

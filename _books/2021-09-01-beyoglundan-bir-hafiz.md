@@ -8,6 +8,7 @@ image: assets/images/ean/9786057471611.jpg
 categories: [ "Kültür", "Roman" ]
 tags: [ "tarih"]
 previewpage: true
+featured: true
 
 # Book attributes
 ean: 9786057471611

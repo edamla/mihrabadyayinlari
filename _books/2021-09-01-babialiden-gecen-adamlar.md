@@ -16,6 +16,8 @@ page: 272
 size: "13,5x21cm"
 publish-number: 47
 cover: "Karton"
+soon: true
+bestseller: true
 
 # Buyout Ecommerce
 dnr: "https://www.dr.com.tr/kitap/babialiden-gecen-adamlar/edebiyat/turk-gunluk-ani/urunno=0001750167001"

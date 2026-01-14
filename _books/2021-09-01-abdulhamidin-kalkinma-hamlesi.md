@@ -8,6 +8,7 @@ image: assets/images/ean/9786056986536.jpg
 categories: [ "Kültür", "Roman" ]
 tags: [ "tarih"]
 previewpage: true
+featured: false
 
 # Book attributes
 ean: 9786056986536

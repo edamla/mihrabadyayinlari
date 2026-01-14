@@ -1,0 +1,44 @@
+/* ===================================
+   Vogun Font Ailesi
+   Site genelinde kullanılan ana font
+   =================================== */
+
+@font-face {
+    font-family: 'Vogun';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Vogun Medium'), local('Vogun-Medium'),
+         url('Vogun-Medium.woff') format('woff'),
+         url('Vogun-Medium.ttf') format('truetype');
+}
+
+/* Normal ağırlık için de aynı dosyayı kullan */
+@font-face {
+    font-family: 'Vogun';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Vogun Medium'), local('Vogun-Medium'),
+         url('Vogun-Medium.woff') format('woff'),
+         url('Vogun-Medium.ttf') format('truetype');
+}
+
+/* Bold için de aynı dosyayı kullan */
+@font-face {
+    font-family: 'Vogun';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Vogun Medium'), local('Vogun-Medium'),
+         url('Vogun-Medium.woff') format('woff'),
+         url('Vogun-Medium.ttf') format('truetype');
+}
+
+/* ===================================
+   CSS Değişkenleri
+   Kolay kullanım için font stack'leri
+   =================================== */
+:root {
+    --font-vogun: 'Vogun', Georgia, 'Times New Roman', Times, serif;
+}

@@ -15,58 +15,46 @@ layout: default
 				</div>
                 {% endif %}
 
-				<div class="{% if book.image %} col-md-9 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-3 pb-3">
+				<div class="{% if book.image %} col-md-9 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-3 pb-3 d-flex flex-column justify-content-between" style="min-height: 280px;">
 
-					<p class="text-uppercase font-weight-bold">
-						<span class="catlist">
-						{% for bookauthor in book.authors %}
-						{% assign siteauthor = site.authors | where:"key", bookauthor | first %}
-						  <a class="sscroll text-danger" href="{{ siteauthor.url }}">{{ siteauthor.title }}</a><span class="sep">, </span>
-						{% endfor %}
-						</span>
-					</p>
-
-					<div class="align-items-center">
-						<!-- Author list -->
-						<h1 class="display-4 mb-4 article-headline">{{ book.title }}</h1>
-
-
-						<p class="font-weight-bold">
+					<div>
+						<p class="text-uppercase font-weight-bold mb-2">
 							<span class="catlist">
-							{% for cat in book.categories %}
-							  <a class="sscroll text-danger" href="{{site.baseurl}}/kategoriler.html#{{ cat | downcase }}">{{ cat }}</a><span class="sep">, </span>
+							{% for bookauthor in book.authors %}
+							{% assign siteauthor = site.authors | where:"key", bookauthor | first %}
+							  <a class="sscroll text-danger" href="{{ siteauthor.url }}">{{ siteauthor.title }}</a><span class="sep">, </span>
 							{% endfor %}
 							</span>
 						</p>
 
-						<!-- read time and date -->
-						<!-- <h6 class="text-muted d-block mt-1">{{ book.date | date: '%d.%m.%Y' }} · {% include meta-read-time.html %}</h6> -->
-						<!-- <h6 class="text-muted d-block mt-1">{{ book.date | date: '%d.%m.%Y' }}</h6> -->
-
-						<!-- Tags -->
-						<div class="mb-4">
-							<span class="taglist">
-							{% for tag in page.tags %}
-							<div class="sscroll btn btn-light btn-sm font-weight-bold">
-							#{{ tag | downcase }}
-							</div>
-							<!-- <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/etiketler.html#{{ tag | downcase }}">#{{ tag | downcase }}</a> -->
-							{% endfor %}
-							</span>
-						</div>
-
-						<div class="icon-block mt-3 d-inline-grid">  
-							{% if site.pagepreview.enabled == true and book.previewpage == true and book.ean %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{ site.pagepreview.prefix }}{{ book.ean }}{{site.pagepreview.postfix}} "><i class="fas fa-book-reader fa-2x text-primary" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Ön Okuma</span></a>  &nbsp;
-							{% endif %}
-							{% if book.youtube %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" target="_blank" href="{{ book.youtube }}"><i class="fab fa-youtube fa-2x text-danger" aria-hidden="true"></i><span class="font-weight-bold btn-sm">Tanıtım</span></a>  &nbsp;
-							{% endif %}
-							<a class="sscroll btn btn-light btn-sm font-weight-bold d-block float-left" href="{{book.url}}#buyout"><i class="fas fa-shopping-cart fa-2x text-success" aria-hidden="true"></i><span class="font-weight-bold btn-sm">E-Satış</span></a>  &nbsp;
-
-						</div>
-
+						<h1 class="display-4 mb-0 article-headline">{{ book.title }}</h1>
 					</div>
+
+					<div class="icon-block d-flex flex-column align-items-start mt-auto">  
+						{% if site.pagepreview.enabled == true and book.previewpage == true and book.ean %}
+						<a class="sscroll btn btn-outline-dark d-flex align-items-center mb-4" target="_blank" href="{{ site.pagepreview.prefix }}{{ book.ean }}{{site.pagepreview.postfix}} ">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 24px; height: 24px;" class="mr-3">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+							</svg>
+							<span class="font-weight-bold">Ön Okuma</span>
+						</a>
+						{% endif %}
+						{% if book.youtube %}
+						<a class="sscroll btn btn-outline-dark d-flex align-items-center mb-4" target="_blank" href="{{ book.youtube }}">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 24px; height: 24px;" class="mr-3">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347c-.75.412-1.667-.13-1.667-.986V5.653Z" />
+							</svg>
+							<span class="font-weight-bold">Tanıtım Videosu</span>
+						</a>
+						{% endif %}
+						<a class="sscroll btn btn-outline-dark d-flex align-items-center" target="_blank" href="{{book.damlayayinevi}}">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width: 24px; height: 24px;" class="mr-3">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121 0 2.1-0.75 2.351-1.847l1.318-5.694A1.25 1.25 0 0 0 19.656 5.25H5.857m3.393 14.25a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0Zm9.75 0a1.125 1.125 0 1 1-2.25 0 1.125 1.125 0 0 1 2.25 0Z" />
+							</svg>
+							<span class="font-weight-bold">Şimdi Satın Al</span>
+						</a>
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -92,175 +80,95 @@ layout: default
 
 		<!-- Attribute list: -->
 		<div class="col-md-3 order-md-1">
-						<ul class="list-group mb-4">
-							{% if book.publish-number %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-fingerprint mr-1 fa-lg text-dark"></i><span class="mr-1">Yayın No:</span>{{book.publish-number}}
-							</li>
-							{% endif %}
+			<ul class="list-group mb-4">
+				{% if book.publish-number %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Yayın No:</span>{{book.publish-number}}
+				</li>
+				{% endif %}
 
-							{% if book.authors %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-user-edit mr-1 fa-lg text-primary"></i><span class="mr-1">Yazar:</span>{% for bookauthor in book.authors %} {% assign siteauthor = site.authors | where:"key", bookauthor | first %} <a href="{{siteauthor.url}}">{{ siteauthor.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
+				{% if book.authors %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Yazar:</span>{% for bookauthor in book.authors %} {% assign siteauthor = site.authors | where:"key", bookauthor | first %} <a href="{{siteauthor.url}}">{{ siteauthor.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+				</li>
+				{% endif %}
 
-							{% if book.illustrators %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-paint-brush mr-1 fa-lg text-warning"></i><span class="mr-1">Tasarım:</span>{% for bookillustrator in book.illustrators %} {% assign siteillustrator = site.illustrators | where:"key", bookillustrator | first %} <a href="{{ site.baseurl }}/{{siteillustrator.url}}">{{ siteillustrator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
+				{% if book.illustrators %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Tasarım:</span>{% for bookillustrator in book.illustrators %} {% assign siteillustrator = site.illustrators | where:"key", bookillustrator | first %} <a href="{{ site.baseurl }}/{{siteillustrator.url}}">{{ siteillustrator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+				</li>
+				{% endif %}
 
-							{% if book.page %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-book-open mr-1 fa-lg text-primary"></i><span class="mr-1">Sayfa:</span> {{book.page}}
-							</li>
-							{% endif %}
+				{% if book.page %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Sayfa:</span> {{book.page}}
+				</li>
+				{% endif %}
 
-							{% if book.size %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-ruler mr-1 fa-lg text-danger"></i><span class="mr-1">Boyut:</span>{{book.size}}
-							</li>
-							{% endif %}
+				{% if book.size %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Boyut:</span>{{book.size}}
+				</li>
+				{% endif %}
 
-							{% if book.cover %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-book mr-1 fa-lg text-dark"></i><span class="mr-1">Kapak:</span>{{book.cover}}
-							</li>
-							{% endif %}
+				{% if book.cover %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Kapak:</span>{{book.cover}}
+				</li>
+				{% endif %}
 
-							{% if book.ean %}
-							<li class="list-group-item">
-							  <div class="md-v-line"></div><i class="fas fa-barcode mr-1 fa-lg text-dark"></i><span class="mr-1">Barcode :</span> {{book.ean}}
-							</li>
-							{% endif %}
+				{% if book.ean %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Barcode :</span> {{book.ean}}
+				</li>
+				{% endif %}
 
-							{% if book.languages %}
-							<li class="list-group-item">
-							  <div class="md-v-line"></div><i class="fas fa-language mr-1 fa-lg text-info"></i><span class="mr-1">Dil:</span>{% for language in book.languages %} {{ language }}{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
+				{% if book.languages %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Dil:</span>{% for language in book.languages %} {{ language }}{% if forloop.last == false %},{% endif %} {% endfor %}
+				</li>
+				{% endif %}
 
-							{% if book.translators %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-globe-americas mr-1 fa-lg text-danger"></i><span class="mr-1">Çevirmen:</span>{% for booktranslator in book.translators %} {% assign sitetranslator = site.translators | where:"key", booktranslator | first %} <a href="{{ site.baseurl }}/{{sitetranslator.url}}">{{ sitetranslator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
-							</li>
-							{% endif %}
+				{% if book.translators %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Çevirmen:</span>{% for booktranslator in book.translators %} {% assign sitetranslator = site.translators | where:"key", booktranslator | first %} <a href="{{ site.baseurl }}/{{sitetranslator.url}}">{{ sitetranslator.title }}</a>{% if forloop.last == false %},{% endif %} {% endfor %}
+				</li>
+				{% endif %}
 
-							{% if book.original-name %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-book mr-1 fa-lg text-danger"></i><span class="mr-1">Orjinal Eser:</span>{{ book.original-name }}
-							</li>
-							{% endif %}
+				{% if book.original-name %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Orjinal Eser:</span>{{ book.original-name }}
+				</li>
+				{% endif %}
 
-							{% if book.original-language %}
-							<li class="list-group-item">
-								<div class="md-v-line"></div><i class="fas fa-globe-americas mr-1 fa-lg text-success"></i><span class="mr-1">Orjinal Dil:</span>{{ book.original-language }}
-							</li>
-							{% endif %}
+				{% if book.original-language %}
+				<li class="list-group-item">
+					<div class="md-v-line"></div><span class="mr-1">Orjinal Dil:</span>{{ book.original-language }}
+				</li>
+				{% endif %}
+			</ul>
 
-						  </ul>
+			<p class="font-weight-bold mb-2" style="padding-left: 1.25rem;">
+				<span class="catlist">
+				{% for cat in book.categories %}
+					<a class="sscroll text-danger" href="{{site.baseurl}}/kategoriler.html#{{ cat | downcase }}">{{ cat }}</a><span class="sep">, </span>
+				{% endfor %}
+				</span>
+			</p>
+
+			<!-- Tags -->
+			<div class="mb-4" style="padding-left: 1.25rem;">
+				<span class="taglist">
+				{% for tag in page.tags %}
+				<div class="sscroll btn btn-light btn-sm font-weight-bold">
+				#{{ tag | downcase }}
+				</div>
+				{% endfor %}
+				</span>
+			</div>
 		</div>
         
         
-	</div>
-
-	<!-- BuyOut -->
-	<div class="row" id="buyout">
-		{% if site.buyout.enabled %}
-			<ul class="buyout list-inline mb-4">
-				<li class="list-inline-item">E-Satış:</li>
-
-				{%if site.buyout.dnr == true and book.dnr %}
-				<li class="list-inline-item">
-					<a href="{{book.dnr}}" target="_blank" title="D&amp;R">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/dr.svg" alt="D&amp;R Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.kitapyurdu == true and book.kitapyurdu %}
-				<li class="list-inline-item">
-					<a href="{{book.kitapyurdu}}" target="_blank" title="Kitapyurdu">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/kitapyurdu.svg" alt="Kitapyurdu Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.damlayayinevi == true and book.damlayayinevi %}
-				<li class="list-inline-item">
-					<a href="{{book.damlayayinevi}}" target="_blank" title="Damla Yayınevi">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/damla.svg" alt="Damla Yayınevi Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.idefix == true and book.idefix %}
-				<li class="list-inline-item">
-					<a href="{{book.idefix}}" target="_blank" title="İdefix">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/idefix.svg" alt="İdefix Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.hepsiburada == true and book.hepsiburada %}
-				<li class="list-inline-item">
-					<a href="{{book.hepsiburada}}" target="_blank" title="Hepsiburada">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/hepsiburada.svg" alt="Hepsiburada Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.trendyol == true and book.trendyol %}
-				<li class="list-inline-item">
-					<a href="{{book.trendyol}}" target="_blank" title="Trendyol">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/trendyol.svg" alt="Trendyol Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.gittigidiyor == true and book.gittigidiyor %}
-				<li class="list-inline-item">
-					<a href="{{book.gittigidiyor}}" target="_blank" title="Trendyol">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/gittigidiyor.svg" alt="Gittigidiyor Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.odatvkitap == true and book.odatvkitap %}
-				<li class="list-inline-item">
-					<a href="{{book.odatvkitap}}" target="_blank" title="Oda Kitap">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/odakitap.svg" alt="Oda Kitap Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.dkitap == true and book.dkitap %}
-				<li class="list-inline-item">
-					<a href="{{book.dkitap}}" target="_blank" title="Dkitap">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/dkitap.svg" alt="Dkitap Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.bkmkitap == true and book.bkmkitap %}
-				<li class="list-inline-item">
-					<a href="{{book.bkmkitap}}" target="_blank" title="BKM Kitap">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/bkmkitap.svg" alt="BKM Kitap Satış">
-					</a>
-				</li>
-				{%endif %}
-
-				{%if site.buyout.amazontr == true and book.amazontr %}
-				<li class="list-inline-item">
-					<a href="{{book.amazontr}}" target="_blank" title="Amazon">
-						<img class="img-fluid" src="{{ site.baseurl }}/assets/images/amazon.svg" alt="Amazon Kitap Satış">
-					</a>
-				</li>
-				{%endif %}
-
-			</ul>
-			{% endif %}
 	</div>
 
 	<!-- Books by Author(s) -->
