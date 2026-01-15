@@ -1,0 +1,26 @@
+{% if site.data.categories.size > 0 %}
+<section id="populer-categories" class="py-5 mt-5" style="background-color: #f5f5f5;">
+    <div class="container">
+        <div class="row justify-content-center">
+            {% for category in site.data.categories %}
+            <div class="col-6 col-sm-4 col-md-3 col-lg mb-4">
+                <a href="javascript:void(0)" 
+                   onclick="lunr_search('{{ category.name }}')" 
+                   class="populer-categories__item d-block text-center text-decoration-none">
+                    <span class="populer-categories__icon d-inline-block mb-2">
+                        <img src="{{ '/assets/images/icons/' | append: category.icon | relative_url }}" 
+                             alt="{{ category.name }}"
+                             width="64"
+                             height="64"
+                             style="max-width: 64px;">
+                    </span>
+                    <span class="font-weight-bold d-block text-dark">
+                        {{ category.name }}
+                    </span>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,31 @@
+- name: Roman
+  url: /edebiyat/roman
+  icon: roman.svg
+
+- name: Bilim
+  url: /bilim
+  icon: bilim.svg
+
+- name: Din
+  url: /din
+  icon: din.svg
+
+- name: Tarih
+  url: /tarih
+  icon: tarih.svg
+
+- name: Eğitim
+  url: /egitim
+  icon: egitim.svg
+
+- name: Felsefe Düşünce
+  url: /felsefe-dusunce
+  icon: felsefe.svg
+
+- name: Araştırma
+  url: /arastirma
+  icon: arastirma.svg
+
+- name: Sanat
+  url: /sanat
+  icon: sanat.svg
