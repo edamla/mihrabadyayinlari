@@ -17,7 +17,7 @@ ean: 9786057195302
 languages: ["Türkçe"]
 page: 128
 size: "13,5x21cm"
-publish-number: 79
+publishnumber: 79
 cover: "Karton"
 
 # Buyout Ecommerce

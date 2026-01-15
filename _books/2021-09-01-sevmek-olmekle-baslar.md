@@ -17,7 +17,7 @@ ean: 9786058199125
 languages: ["Türkçe"]
 page: 256
 size: "13,5x21cm"
-publish-number: 40
+publishnumber: 40
 cover: "Karton"
 
 # Buyout Ecommerce

@@ -17,7 +17,7 @@ ean: 9786058301993
 languages: ["Türkçe"]
 page: 200
 size: "13,5x21cm"
-publish-number: 20
+publishnumber: 20
 cover: "Karton"
 
 # Buyout Ecommerce

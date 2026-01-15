@@ -81,9 +81,9 @@ layout: default
 		<!-- Attribute list: -->
 		<div class="col-md-3 order-md-1">
 			<ul class="list-group mb-4">
-				{% if book.publish-number %}
-				<li class="list-group-item">
-					<div class="md-v-line"></div><span class="mr-1">Yayın No:</span>{{book.publish-number}}
+			{% if book.publishnumber %}
+			<li class="list-group-item">
+				<div class="md-v-line"></div><span class="mr-1">Yayın No:</span>{{book.publishnumber}}
 				</li>
 				{% endif %}
 

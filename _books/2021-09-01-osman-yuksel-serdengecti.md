@@ -17,7 +17,7 @@ ean: 9786056667855
 languages: ["Türkçe"]
 page: 336
 size: "13,5x21cm"
-publish-number: 6
+publishnumber: 6
 cover: "Karton"
 
 # Buyout Ecommerce

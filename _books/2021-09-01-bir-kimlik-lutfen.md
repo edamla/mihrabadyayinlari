@@ -17,7 +17,7 @@ ean: 9786058301924
 languages: ["Türkçe"]
 page: 224
 size: "13,5x21cm"
-publish-number: 12
+publishnumber: 12
 cover: "Karton"
 
 # Buyout Ecommerce

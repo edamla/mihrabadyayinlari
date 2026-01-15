@@ -8,7 +8,7 @@ permalink: "/kitaplar"
 
     <h4 class="font-weight-bold spanborder"><span>Yeni Çıkanlar</span></h4>
     {% assign bookarray = "" | split: ',' %}
-    {% assign featuredBooks = site.books | where: "featured", true | sort: "publish-number" | reverse %}
+    {% assign featuredBooks = site.books | where: "featured", true | sort: "publishnumber" | reverse %}
     
     {% for book in featuredBooks limit:10 %}
         {% assign bookarray = bookarray | push: book %}
@@ -19,7 +19,7 @@ permalink: "/kitaplar"
     
     <h4 class="font-weight-bold spanborder mt-3"><span>{{page.title}}</span></h4>
         <div class="row gap-y listrecent listrecent listauthor">
-        {% assign arraybooks = site.books | sort: "publish-number" | reverse %}
+        {% assign arraybooks = site.books | sort: "publishnumber" | reverse %}
     
         {% for book in arraybooks %}
             

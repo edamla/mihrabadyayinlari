@@ -21,7 +21,7 @@
         </ul>
 
         <!-- Tab Panels -->
-        <!-- Yeni Çıkanlar - publish-number en büyük olanlar -->
+        <!-- Yeni Çıkanlar - publishnumber en büyük olanlar -->
         <div class="hachette-panel active" id="tab-yeni-cikanlar" role="tabpanel">
             <div class="hachette-carousel-wrapper">
                 <button class="hachette-nav-btn hachette-nav-prev" aria-label="Önceki">
@@ -32,7 +32,7 @@
                 
                 <div class="hachette-carousel-container">
                     <div class="hachette-grid">
-                        {% assign sorted_books = site.books | sort: "publish-number" | reverse %}
+                        {% assign sorted_books = site.books | sort: "publishnumber" | reverse %}
                         {% for book in sorted_books limit: 30 %}
                         <div class="hachette-book-card">
                             <a href="{{ book.url }}">

@@ -148,7 +148,7 @@ collections:
   books:
     output: true
     permalink: /kitaplar/:title
-    sort_by: publish-number
+    sort_by: publishnumber
   authors:
     output: true
     permalink: /yazarlar/:title

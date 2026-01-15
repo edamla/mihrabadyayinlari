@@ -17,7 +17,7 @@ ean: 9786056846212
 languages: ["Türkçe"]
 page: 376
 size: "13,5x21cm"
-publish-number: 51
+publishnumber: 51
 cover: "Karton"
 
 # Buyout Ecommerce

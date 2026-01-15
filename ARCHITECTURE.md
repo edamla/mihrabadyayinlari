@@ -125,7 +125,7 @@ collections:
   books:
     output: true
     permalink: /kitaplar/:title
-    sort_by: publish-number
+    sort_by: publishnumber
   authors:
     output: true
     permalink: /yazarlar/:title
@@ -316,8 +316,8 @@ document.addEventListener('DOMContentLoaded', function() {
 ### Kitap Filtreleme Mantığı
 
 ```liquid
-<!-- Yeni Çıkanlar: publish-number'a göre sırala -->
-{% assign sorted_books = site.books | sort: "publish-number" | reverse %}
+<!-- Yeni Çıkanlar: publishnumber'a göre sırala -->
+{% assign sorted_books = site.books | sort: "publishnumber" | reverse %}
 
 <!-- Yakında Çıkacaklar: soon: true olanlar -->
 {% assign soon_books = site.books | where: "soon", true %}

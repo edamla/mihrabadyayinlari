@@ -139,7 +139,7 @@ ean: 9786056725180
 languages: ["Türkçe"]
 page: 200
 size: "13,5x21cm"
-publish-number: 28
+publishnumber: 28
 cover: "Karton"
 
 # Satın alma linkleri

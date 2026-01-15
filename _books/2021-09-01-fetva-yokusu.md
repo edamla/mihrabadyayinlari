@@ -17,7 +17,7 @@ ean: 9786051748801
 languages: ["Türkçe"]
 page: 224
 size: "13,5x21cm"
-publish-number: 62
+publishnumber: 62
 cover: "Karton"
 
 # Buyout Ecommerce
