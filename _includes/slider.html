@@ -13,10 +13,18 @@
         <div class="base" id="base">
             {% for slide in site.data.slider %}
             <div class="item w-100 img img-{{forloop.index}}">
+                    {% if slide.href contains 'search:' %}
+                    {% assign search_term = slide.href | remove: 'search:' %}
+                    <a href="javascript:void(0);" onclick="lunr_search('{{ search_term }}'); return false;">
+                        <img class="d-none d-md-block w-100 img-fluid" src="{{ slide.img }}" alt="{{ slide.title }}">
+                        <img class="d-block d-md-none w-100 img-fluid" src="{{ slide.mobile-img }}" alt="{{ slide.title }}">
+                    </a>
+                    {% else %}
                     <a href="{{ slide.href }}" target="{{ slide.target }}">
                         <img class="d-none d-md-block w-100 img-fluid" src="{{ slide.img }}" alt="{{ slide.title }}">
                         <img class="d-block d-md-none w-100 img-fluid" src="{{ slide.mobile-img }}" alt="{{ slide.title }}">
                     </a>
+                    {% endif %}
             </div>
             {% endfor %}   
         </div>
