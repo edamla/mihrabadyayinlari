@@ -5,7 +5,7 @@ authors: ["gurbuz-azak"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247543.jpg
-categories: [ "Roman" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "roman", "demokrat-parti", "1950", "halk"]
 previewpage: true
 featured: false

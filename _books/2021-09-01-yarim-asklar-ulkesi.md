@@ -5,7 +5,7 @@ authors: ["harun-colak"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725128.jpg
-categories: [ "Roman" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "roman", "15-temmuz", "ömer-halisdemir", "kahramanlık"]
 previewpage: true
 featured: false

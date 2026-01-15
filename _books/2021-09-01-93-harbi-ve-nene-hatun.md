@@ -5,7 +5,7 @@ authors: ["sara-gurbuz-ozeren"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301917.jpg
-categories: [ "Tarih" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "93-harbi", "nene-hatun", "erzurum", "rus-savaşı"]
 previewpage: true
 featured: false

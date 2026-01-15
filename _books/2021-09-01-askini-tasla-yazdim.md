@@ -5,7 +5,7 @@ authors: ["muhsin-ilyas-subasi"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247567.jpg
-categories: [ "Roman" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "roman", "mimar-sinan", "osmanlı", "mimari"]
 previewpage: true
 featured: false

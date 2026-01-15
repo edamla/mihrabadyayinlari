@@ -5,7 +5,7 @@ authors: ["irfan-soyler"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986574.jpg
-categories: [ "Roman" ]
+categories: [ "Roman", "Din" ]
 tags: [ "roman", "ezan", "zulüm", "cumhuriyet"]
 previewpage: true
 featured: false

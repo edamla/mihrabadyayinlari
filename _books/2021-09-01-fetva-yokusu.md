@@ -5,7 +5,7 @@ authors: ["durali-yilmaz"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786051748801.jpg
-categories: [ "Roman" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "roman", "osmanlı", "yeniçeri", "tarihî-roman"]
 previewpage: true
 featured: true

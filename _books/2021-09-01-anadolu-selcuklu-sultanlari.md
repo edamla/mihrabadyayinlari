@@ -5,7 +5,7 @@ authors: ["muhsin-ilyas-subasi"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471604.jpg
-categories: [ "Tarih" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "selçuklu", "anadolu", "sultan", "moğol"]
 previewpage: true
 featured: false

@@ -5,7 +5,7 @@ authors: ["nurettin-taskesen"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247529.jpg
-categories: [ "Tarih" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "kudüs", "filistin", "osmanlı", "birinci-dünya-savaşı"]
 previewpage: true
 featured: false

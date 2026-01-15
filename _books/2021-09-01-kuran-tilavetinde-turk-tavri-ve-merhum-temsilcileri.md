@@ -5,7 +5,7 @@ authors: ["mehmet-ali-sari"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471628.jpg
-categories: [ "Din" ]
+categories: [ "Din", "Sanat" ]
 tags: [ "kuran", "tilâvet", "hafız", "musiki"]
 previewpage: true
 featured: false

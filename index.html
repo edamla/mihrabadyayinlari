@@ -18,13 +18,15 @@ description: "Medeniyetimizin izinde!"
 {% include mainpage-carousel.html %}
 <!-- Book Carousel End -->
 
+{% include popularcategories.html %}
+
 <!-- book slider -->
 <h2 class="mb-3 mt-4">Editörün Seçtikleri</h2>
  {% assign books = site.books %}
 {% include product-slider.html %}
 <!-- book slider End -->
 
-{% include popularcategories.html %}
+
 
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 

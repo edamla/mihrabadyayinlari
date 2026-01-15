@@ -5,7 +5,7 @@ authors: ["hasan-basri-bilgin"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667886.jpg
-categories: [ "Din" ]
+categories: [ "Roman", "Din" ]
 tags: [ "hz-yusuf", "peygamber", "kıssa", "aşk"]
 previewpage: true
 featured: false

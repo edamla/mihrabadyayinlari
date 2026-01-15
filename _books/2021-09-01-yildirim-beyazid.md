@@ -5,7 +5,7 @@ authors: ["cavit-ersen"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301955.jpg
-categories: [ "Tarih" ]
+categories: [ "Roman", "Tarih" ]
 tags: [ "osmanlı", "padişah", "niğbolu", "timur"]
 previewpage: true
 featured: false

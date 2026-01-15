@@ -5,7 +5,7 @@ authors: ["mehmet-seker" , "suleyman-genc"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199132.jpg
-categories: [ "Tarih" ]
+categories: [ "Tarih", "Din" ]
 tags: [ "medeniyet", "islam", "türk-tarihi", "kültür"]
 previewpage: true
 featured: false
