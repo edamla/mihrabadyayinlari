@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301986.jpg
 categories: [ "Tarih" ]
 tags: [ "ertuğrul-gazi", "osmanlı", "kuruluş", "kayı"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301986

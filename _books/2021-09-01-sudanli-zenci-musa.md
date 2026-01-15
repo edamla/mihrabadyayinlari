@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986505.jpg
 categories: [ "Tarih" ]
 tags: [ "teşkilat-ı-mahsusa", "birinci-dünya-savaşı", "osmanlı", "kahraman"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986505

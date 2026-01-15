@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667831.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "başörtüsü", "inanç", "toplum"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667831

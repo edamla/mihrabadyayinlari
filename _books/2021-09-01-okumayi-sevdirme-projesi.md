@@ -8,6 +8,9 @@ image: assets/images/ean/9786058247581.jpg
 categories: [ "Eğitim" ]
 tags: [ "eğitim", "okuma", "alışkanlık", "proje"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058247581

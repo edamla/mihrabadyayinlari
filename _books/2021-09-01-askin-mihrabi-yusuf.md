@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667886.jpg
 categories: [ "Din" ]
 tags: [ "hz-yusuf", "peygamber", "kıssa", "aşk"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667886

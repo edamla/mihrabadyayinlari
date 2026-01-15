@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301993.jpg
 categories: [ "Tarih" ]
 tags: [ "osmanlı", "deneme", "ecdat", "tarih"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301993

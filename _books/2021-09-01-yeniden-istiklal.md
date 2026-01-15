@@ -8,6 +8,9 @@ image: assets/images/ean/9786058247505.jpg
 categories: [ "Araştırma" ]
 tags: [ "15-temmuz", "darbe", "millet", "direniş"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058247505

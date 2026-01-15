@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725142.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "abdülhamid", "ittihat-terakki", "31-mart"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725142

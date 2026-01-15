@@ -8,6 +8,9 @@ image: assets/images/ean/9786056846250.jpg
 categories: [ "Araştırma" ]
 tags: [ "biyografi", "necip-fazıl", "şair", "düşünce"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056846250

@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725197.jpg
 categories: [ "Felsefe Düşünce" ]
 tags: [ "deneme", "mektup", "düşünce", "vatan"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725197

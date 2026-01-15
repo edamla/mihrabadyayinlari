@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667893.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "kadın", "kimlik", "feminizm"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667893

@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667848.png
 categories: [ "Roman" ]
 tags: [ "roman", "aile", "12-eylül", "darbe"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667848

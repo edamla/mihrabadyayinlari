@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667800.jpg
 categories: [ "Tarih" ]
 tags: [ "osmanlı", "kuruluş", "osman-gazi", "kayı"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667800

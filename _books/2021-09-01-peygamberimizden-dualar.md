@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986550.jpg
 categories: [ "Din" ]
 tags: [ "dua", "hadis", "peygamber", "ibadet"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986550

@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199149.jpg
 categories: [ "Eğitim" ]
 tags: [ "eğitim", "çocuk-yetiştirme", "anne-baba", "aile"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199149

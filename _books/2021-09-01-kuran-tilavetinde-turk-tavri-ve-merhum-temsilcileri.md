@@ -8,6 +8,9 @@ image: assets/images/ean/9786057471628.jpg
 categories: [ "Din" ]
 tags: [ "kuran", "tilâvet", "hafız", "musiki"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471628

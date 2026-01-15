@@ -8,6 +8,9 @@ image: assets/images/ean/9786058247543.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "demokrat-parti", "1950", "halk"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058247543

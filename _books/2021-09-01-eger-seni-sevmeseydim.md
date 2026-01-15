@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667862.jpg
 categories: [ "Felsefe Düşünce" ]
 tags: [ "deneme", "aşk", "düşünce", "iman"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667862

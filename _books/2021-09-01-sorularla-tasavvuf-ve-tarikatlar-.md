@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725173.jpg
 categories: [ "Din" ]
 tags: [ "tasavvuf", "tarikat", "din", "soru-cevap"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725173

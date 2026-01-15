@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199118.jpg
 categories: [ "Tarih" ]
 tags: [ "abdülhamid", "osmanlı", "padişah", "siyaset"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199118

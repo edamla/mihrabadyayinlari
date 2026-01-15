@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986543.jpg
 categories: [ "Tarih" ]
 tags: [ "osmanlı", "fatih", "abdülhamid", "tarih-eleştiri"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986543

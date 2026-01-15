@@ -8,6 +8,9 @@ image: assets/images/ean/9786058247567.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "mimar-sinan", "osmanlı", "mimari"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058247567

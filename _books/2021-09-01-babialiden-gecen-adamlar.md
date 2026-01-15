@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199156.jpg
 categories: [ "Araştırma" ]
 tags: [ "hatırat", "basın", "edebiyat", "babıali"]
 previewpage: true
+featured: false
+soon: true
+bestseller: true
 
 # Book attributes
 ean: 9786058199156
@@ -16,8 +19,6 @@ page: 272
 size: "13,5x21cm"
 publish-number: 47
 cover: "Karton"
-soon: true
-bestseller: true
 
 # Buyout Ecommerce
 dnr: "https://www.dr.com.tr/kitap/babialiden-gecen-adamlar/edebiyat/turk-gunluk-ani/urunno=0001750167001"

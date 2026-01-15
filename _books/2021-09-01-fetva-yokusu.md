@@ -9,6 +9,8 @@ categories: [ "Roman" ]
 tags: [ "roman", "osmanlı", "yeniçeri", "tarihî-roman"]
 previewpage: true
 featured: true
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786051748801

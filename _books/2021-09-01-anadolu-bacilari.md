@@ -8,6 +8,9 @@ image: assets/images/ean/9786057471680.jpg
 categories: [ "Tarih" ]
 tags: [ "ahilik", "kadın", "bacıyan-ı-rum", "teşkilat"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471680

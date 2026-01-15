@@ -9,6 +9,8 @@ categories: [ "Araştırma" ]
 tags: [ "biyografi", "ilim", "kütüphane", "osmanlı"]
 previewpage: true
 featured: true
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725180

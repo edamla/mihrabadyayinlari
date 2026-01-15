@@ -9,6 +9,8 @@ categories: [ "Din" ]
 tags: [ "hatırat", "hafız", "istanbul", "musiki"]
 previewpage: true
 featured: true
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471611

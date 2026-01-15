@@ -8,6 +8,9 @@ image: assets/images/ean/9786056846298.jpg
 categories: [ "Sanat" ]
 tags: [ "tiyatro", "oyun", "sahne", "edebiyat"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056846298

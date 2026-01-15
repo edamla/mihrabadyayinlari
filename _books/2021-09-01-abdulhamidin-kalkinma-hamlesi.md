@@ -9,6 +9,8 @@ categories: [ "Tarih" ]
 tags: [ "abdülhamid", "osmanlı", "kalkınma", "modernleşme"]
 previewpage: true
 featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986536

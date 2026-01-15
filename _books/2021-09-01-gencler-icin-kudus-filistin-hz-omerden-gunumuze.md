@@ -9,6 +9,8 @@ categories: [ "Tarih" ]
 tags: [ "kudüs", "filistin", "hz-ömer", "mescid-i-aksa"]
 previewpage: true
 featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057195302

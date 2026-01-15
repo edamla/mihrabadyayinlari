@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301917.jpg
 categories: [ "Tarih" ]
 tags: [ "93-harbi", "nene-hatun", "erzurum", "rus-savaşı"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301917

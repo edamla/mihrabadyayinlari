@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301979.jpg
 categories: [ "Araştırma" ]
 tags: [ "biyografi", "mehmed-akif", "şair", "istiklal-marşı"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301979

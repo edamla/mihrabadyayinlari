@@ -8,6 +8,9 @@ image: assets/images/ean/9786057471659.jpg
 categories: [ "Tarih" ]
 tags: [ "endülüs", "elhamra", "gırnata", "çöküş"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471659

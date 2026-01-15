@@ -8,6 +8,9 @@ image: assets/images/ean/9786056846267.png
 categories: [ "Tarih" ]
 tags: [ "selçuklu", "alparslan", "malazgirt", "savaş"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056846267

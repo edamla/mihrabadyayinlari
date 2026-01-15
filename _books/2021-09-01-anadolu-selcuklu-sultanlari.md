@@ -8,6 +8,9 @@ image: assets/images/ean/9786057471604.jpg
 categories: [ "Tarih" ]
 tags: [ "selçuklu", "anadolu", "sultan", "moğol"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471604

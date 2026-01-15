@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199101.jpg
 categories: [ "Tarih" ]
 tags: [ "birinci-dünya-savaşı", "osmanlı", "zafer", "ingiliz"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199101

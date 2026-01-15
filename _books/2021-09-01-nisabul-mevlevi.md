@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725166.jpg
 categories: [ "Din" ]
 tags: [ "mevlevi", "tasavvuf", "mesnevi", "mevlana"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725166

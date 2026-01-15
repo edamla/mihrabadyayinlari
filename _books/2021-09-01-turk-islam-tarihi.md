@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199132.jpg
 categories: [ "Tarih" ]
 tags: [ "medeniyet", "islam", "türk-tarihi", "kültür"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199132

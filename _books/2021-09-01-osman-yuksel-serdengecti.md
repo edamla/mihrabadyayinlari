@@ -8,6 +8,9 @@ image: assets/images/ean/9786056667855.jpg
 categories: [ "Araştırma" ]
 tags: [ "biyografi", "şair", "yazar", "mücadele"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056667855

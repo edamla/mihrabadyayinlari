@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986567.jpg
 categories: [ "Tarih" ]
 tags: [ "ayasofya", "istanbul", "fetih", "cami"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986567

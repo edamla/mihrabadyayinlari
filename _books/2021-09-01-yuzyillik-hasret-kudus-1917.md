@@ -8,6 +8,9 @@ image: assets/images/ean/9786058247529.jpg
 categories: [ "Tarih" ]
 tags: [ "kudüs", "filistin", "osmanlı", "birinci-dünya-savaşı"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058247529

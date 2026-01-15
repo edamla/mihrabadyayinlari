@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301931.png
 categories: [ "Roman" ]
 tags: [ "roman", "aşk", "psikoloji"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301931

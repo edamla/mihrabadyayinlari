@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725159.jpg
 categories: [ "Felsefe Düşünce" ]
 tags: [ "deneme", "15-temmuz", "direniş", "millet"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725159

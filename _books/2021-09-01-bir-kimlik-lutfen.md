@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301924.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "kimlik", "toplum", "arayış"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301924

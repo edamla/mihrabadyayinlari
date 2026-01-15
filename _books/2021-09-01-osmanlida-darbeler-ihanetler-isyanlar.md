@@ -8,6 +8,9 @@ image: assets/images/ean/9786056725111.jpg
 categories: [ "Tarih" ]
 tags: [ "osmanlı", "darbe", "isyan", "ihanet"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056725111

@@ -9,6 +9,8 @@ categories: [ "Araştırma" ]
 tags: [ "uygur", "çin", "zulüm", "anı"]
 previewpage: true
 featured: true
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471642

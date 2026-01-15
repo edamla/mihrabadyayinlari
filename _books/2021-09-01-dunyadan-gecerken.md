@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199194.jpg
 categories: [ "Sanat" ]
 tags: [ "şiir", "tefekür", "edebiyat", "manzume"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199194

@@ -9,6 +9,8 @@ categories: [ "Tarih" ]
 tags: [ "harizmşah", "moğol", "cengiz-han", "türk-tarihi"]
 previewpage: true
 featured: true
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786057471635

@@ -8,6 +8,9 @@ image: assets/images/ean/9786058301948.jpg
 categories: [ "Tarih" ]
 tags: [ "osmanlı", "padişah", "hilafet", "yavuz"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058301948

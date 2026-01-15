@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986581.jpg
 categories: [ "Tarih" ]
 tags: [ "endülüs", "kurtuba", "medeniyet", "ilim"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986581

@@ -8,6 +8,9 @@ image: assets/images/ean/9786056846212.jpg
 categories: [ "Eğitim" ]
 tags: [ "eğitim", "zeka", "öğrenme", "çocuk-gelişimi"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056846212

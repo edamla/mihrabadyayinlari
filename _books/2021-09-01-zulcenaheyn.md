@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986529.jpg
 categories: [ "Araştırma" ]
 tags: [ "biyografi", "erzurum", "ibrahim-hakkı", "tasavvuf"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986529

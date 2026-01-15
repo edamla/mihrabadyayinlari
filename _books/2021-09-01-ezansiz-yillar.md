@@ -8,6 +8,9 @@ image: assets/images/ean/9786056986574.jpg
 categories: [ "Roman" ]
 tags: [ "roman", "ezan", "zulüm", "cumhuriyet"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786056986574

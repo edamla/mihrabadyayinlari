@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199125.jpg
 categories: [ "Felsefe Düşünce" ]
 tags: [ "deneme", "düşünce", "felsefe", "tefekür"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199125

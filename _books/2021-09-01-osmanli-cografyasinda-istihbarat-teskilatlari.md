@@ -8,6 +8,9 @@ image: assets/images/ean/9786058199163.jpg
 categories: [ "Araştırma" ]
 tags: [ "istihbarat", "osmanlı", "casusluk", "teşkilat"]
 previewpage: true
+featured: false
+soon: false
+bestseller: false
 
 # Book attributes
 ean: 9786058199163
