@@ -5,7 +5,7 @@ authors: ["ustun-inanc"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846298.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Sanat" ]
 tags: [ "tarih"]
 previewpage: true
 

@@ -5,7 +5,7 @@ authors: ["murat-basaran"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667862.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Felsefe Düşünce" ]
 tags: [ "tarih"]
 previewpage: true
 

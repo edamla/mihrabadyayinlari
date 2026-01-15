@@ -5,7 +5,7 @@ authors: ["durali-yilmaz"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786051748801.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Roman" ]
 tags: [ "tarih"]
 previewpage: true
 featured: true

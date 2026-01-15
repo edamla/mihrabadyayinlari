@@ -5,7 +5,7 @@ authors: ["gurbuz-azak"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199156.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Araştırma" ]
 tags: [ "hatıra"]
 previewpage: true
 

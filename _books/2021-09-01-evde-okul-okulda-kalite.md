@@ -5,7 +5,7 @@ authors: ["ahmet-marasli"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247598.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Eğitim" ]
 tags: [ "roman"]
 previewpage: true
 

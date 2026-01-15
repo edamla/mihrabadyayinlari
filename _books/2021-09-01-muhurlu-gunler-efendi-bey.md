@@ -5,7 +5,7 @@ authors: ["mesut-turan"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667848.png
-categories: [ "Kültür", "Roman" ]
+categories: [ "Roman" ]
 tags: [ "tarih"]
 previewpage: true
 

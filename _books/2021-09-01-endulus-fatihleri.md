@@ -5,7 +5,7 @@ authors: ["nurettin-taskesen"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846274.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Tarih" ]
 tags: [ "tarih"]
 previewpage: true
 

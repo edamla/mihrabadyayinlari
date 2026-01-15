@@ -5,7 +5,7 @@ authors: ["gulbahar-haitiwaji"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471642.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Araştırma" ]
 tags: [ "tarih"]
 previewpage: true
 featured: true

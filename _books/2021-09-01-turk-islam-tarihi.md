@@ -5,7 +5,7 @@ authors: ["mehmet-seker" , "suleyman-genc"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199132.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Tarih" ]
 tags: [ "tarih"]
 previewpage: true
 

@@ -5,7 +5,7 @@ authors: ["hasan-basri-bilgin"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247512.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Roman" ]
 tags: [ "biyografi"]
 previewpage: true
 

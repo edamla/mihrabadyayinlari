@@ -5,7 +5,7 @@ authors: ["sadik-yalsizucanlar"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986550.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Din" ]
 tags: [ "dini"]
 previewpage: true
 

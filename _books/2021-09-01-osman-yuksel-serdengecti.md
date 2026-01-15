@@ -5,7 +5,7 @@ authors: ["abdurrahim-balcioglu"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667855.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Araştırma" ]
 tags: [ "tarih"]
 previewpage: true
 

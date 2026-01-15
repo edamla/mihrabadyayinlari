@@ -5,7 +5,7 @@ authors: ["talip-arisahin"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301948.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Tarih" ]
 tags: [ "tarih"]
 previewpage: true
 

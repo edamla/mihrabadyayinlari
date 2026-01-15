@@ -5,7 +5,7 @@ authors: ["mehmet-demirci"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725173.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Din" ]
 tags: [ "tarih"]
 previewpage: true
 

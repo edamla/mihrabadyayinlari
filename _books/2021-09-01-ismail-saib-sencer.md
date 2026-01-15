@@ -5,7 +5,7 @@ authors: ["zafer-bilgi"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725180.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Araştırma" ]
 tags: [ "biyografi"]
 previewpage: true
 featured: true

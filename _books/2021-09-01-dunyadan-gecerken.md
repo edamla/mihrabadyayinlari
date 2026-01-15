@@ -5,7 +5,7 @@ authors: ["ahmet-marasli"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199194.jpg
-categories: [ "Kültür" ]
+categories: [ "Sanat" ]
 tags: [ "şiir"]
 previewpage: true
 

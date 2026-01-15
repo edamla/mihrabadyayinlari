@@ -5,7 +5,7 @@ authors: ["elif-sonmezisik"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247505.jpg
-categories: [ "Kültür", "Roman" ]
+categories: [ "Araştırma" ]
 tags: [ "biyografi"]
 previewpage: true
 
