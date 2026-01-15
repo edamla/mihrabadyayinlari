@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667862.jpg
 categories: [ "Felsefe Düşünce" ]
-tags: [ "tarih"]
+tags: [ "deneme", "aşk", "düşünce", "iman"]
 previewpage: true
 
 # Book attributes

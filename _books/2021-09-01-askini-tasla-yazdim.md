@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247567.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "mimar-sinan", "osmanlı", "mimari"]
 previewpage: true
 
 # Book attributes

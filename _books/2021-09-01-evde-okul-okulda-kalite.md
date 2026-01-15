@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247598.jpg
 categories: [ "Eğitim" ]
-tags: [ "roman"]
+tags: [ "eğitim", "çocuk-yetiştirme", "aile", "okul"]
 previewpage: true
 
 # Book attributes

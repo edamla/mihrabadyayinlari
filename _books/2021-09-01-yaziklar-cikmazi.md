@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199170.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "cumhuriyet", "baskı", "toplum"]
 previewpage: true
 
 # Book attributes

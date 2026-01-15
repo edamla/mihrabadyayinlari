@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247543.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "demokrat-parti", "1950", "halk"]
 previewpage: true
 
 # Book attributes

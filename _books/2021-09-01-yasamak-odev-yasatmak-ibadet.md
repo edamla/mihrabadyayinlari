@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846236.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "osmanlı", "selçuklu", "yönetim", "adalet"]
 previewpage: true
 
 # Book attributes

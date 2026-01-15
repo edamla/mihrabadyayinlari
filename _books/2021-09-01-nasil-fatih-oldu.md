@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667824.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "fatih", "eğitim", "istanbul", "fetih"]
 previewpage: true
 
 # Book attributes

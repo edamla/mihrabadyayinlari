@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301955.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "osmanlı", "padişah", "niğbolu", "timur"]
 previewpage: true
 
 # Book attributes

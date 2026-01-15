@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725128.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "15-temmuz", "ömer-halisdemir", "kahramanlık"]
 previewpage: true
 
 # Book attributes

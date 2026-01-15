@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199118.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "abdülhamid", "osmanlı", "padişah", "siyaset"]
 previewpage: true
 
 # Book attributes

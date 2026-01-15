@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667886.jpg
 categories: [ "Din" ]
-tags: [ "tarih"]
+tags: [ "hz-yusuf", "peygamber", "kıssa", "aşk"]
 previewpage: true
 
 # Book attributes

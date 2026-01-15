@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199194.jpg
 categories: [ "Sanat" ]
-tags: [ "şiir"]
+tags: [ "şiir", "tefekür", "edebiyat", "manzume"]
 previewpage: true
 
 # Book attributes

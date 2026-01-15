@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247505.jpg
 categories: [ "Araştırma" ]
-tags: [ "biyografi"]
+tags: [ "15-temmuz", "darbe", "millet", "direniş"]
 previewpage: true
 
 # Book attributes

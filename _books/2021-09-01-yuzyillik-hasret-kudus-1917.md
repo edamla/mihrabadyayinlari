@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247529.jpg
 categories: [ "Tarih" ]
-tags: [ "biyografi"]
+tags: [ "kudüs", "filistin", "osmanlı", "birinci-dünya-savaşı"]
 previewpage: true
 
 # Book attributes

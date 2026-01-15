@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986550.jpg
 categories: [ "Din" ]
-tags: [ "dini"]
+tags: [ "dua", "hadis", "peygamber", "ibadet"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986574.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "ezan", "zulüm", "cumhuriyet"]
 previewpage: true
 
 # Book attributes

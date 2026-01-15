@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199101.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "birinci-dünya-savaşı", "osmanlı", "zafer", "ingiliz"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986536.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "abdülhamid", "osmanlı", "kalkınma", "modernleşme"]
 previewpage: true
 featured: false
 

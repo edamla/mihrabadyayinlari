@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986512.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "kurtuluş-savaşı", "efe", "ege", "adnan-menderes"]
 previewpage: true
 
 # Book attributes

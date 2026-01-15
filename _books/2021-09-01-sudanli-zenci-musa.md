@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986505.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "teşkilat-ı-mahsusa", "birinci-dünya-savaşı", "osmanlı", "kahraman"]
 previewpage: true
 
 # Book attributes

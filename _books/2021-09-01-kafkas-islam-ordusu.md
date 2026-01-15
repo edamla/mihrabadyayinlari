@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846243.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "azerbaycan", "kafkas", "birinci-dünya-savaşı", "nuri-paşa"]
 previewpage: true
 
 # Book attributes

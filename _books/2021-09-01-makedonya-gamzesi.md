@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725142.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "abdülhamid", "ittihat-terakki", "31-mart"]
 previewpage: true
 
 # Book attributes

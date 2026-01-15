@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471628.jpg
 categories: [ "Din" ]
-tags: [ "tarih"]
+tags: [ "kuran", "tilâvet", "hafız", "musiki"]
 previewpage: true
 
 # Book attributes

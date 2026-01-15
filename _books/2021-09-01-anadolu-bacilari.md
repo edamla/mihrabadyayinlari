@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471680.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "ahilik", "kadın", "bacıyan-ı-rum", "teşkilat"]
 previewpage: true
 
 # Book attributes

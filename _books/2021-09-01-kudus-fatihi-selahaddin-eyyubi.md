@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247536.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "selahaddin-eyyubi", "kudüs", "haçlı", "fetih"]
 previewpage: true
 
 # Book attributes

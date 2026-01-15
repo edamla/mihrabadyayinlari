@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199125.jpg
 categories: [ "Felsefe Düşünce" ]
-tags: [ "deneme"]
+tags: [ "deneme", "düşünce", "felsefe", "tefekür"]
 previewpage: true
 
 # Book attributes

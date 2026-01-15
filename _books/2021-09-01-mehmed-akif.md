@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301979.jpg
 categories: [ "Araştırma" ]
-tags: [ "tarih"]
+tags: [ "biyografi", "mehmed-akif", "şair", "istiklal-marşı"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471659.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "endülüs", "elhamra", "gırnata", "çöküş"]
 previewpage: true
 
 # Book attributes

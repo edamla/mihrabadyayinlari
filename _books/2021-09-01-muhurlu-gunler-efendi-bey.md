@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667848.png
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "aile", "12-eylül", "darbe"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846212.jpg
 categories: [ "Eğitim" ]
-tags: [ "eğitim"]
+tags: [ "eğitim", "zeka", "öğrenme", "çocuk-gelişimi"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725166.jpg
 categories: [ "Din" ]
-tags: [ "tarih"]
+tags: [ "mevlevi", "tasavvuf", "mesnevi", "mevlana"]
 previewpage: true
 
 # Book attributes

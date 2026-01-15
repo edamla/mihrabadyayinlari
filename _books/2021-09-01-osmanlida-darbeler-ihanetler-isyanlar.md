@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725111.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "osmanlı", "darbe", "isyan", "ihanet"]
 previewpage: true
 
 # Book attributes

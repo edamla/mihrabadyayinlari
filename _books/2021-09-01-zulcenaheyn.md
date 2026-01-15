@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986529.jpg
 categories: [ "Araştırma" ]
-tags: [ "tarih"]
+tags: [ "biyografi", "erzurum", "ibrahim-hakkı", "tasavvuf"]
 previewpage: true
 
 # Book attributes

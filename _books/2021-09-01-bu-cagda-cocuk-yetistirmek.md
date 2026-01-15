@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199149.jpg
 categories: [ "Eğitim" ]
-tags: [ "psikoloji"]
+tags: [ "eğitim", "çocuk-yetiştirme", "anne-baba", "aile"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301931.png
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "aşk", "psikoloji"]
 previewpage: true
 
 # Book attributes

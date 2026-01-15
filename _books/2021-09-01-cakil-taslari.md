@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058247512.jpg
 categories: [ "Roman" ]
-tags: [ "biyografi"]
+tags: [ "roman", "hayat", "iman", "dua"]
 previewpage: true
 
 # Book attributes

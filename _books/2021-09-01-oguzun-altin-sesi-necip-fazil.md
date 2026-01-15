@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846250.jpg
 categories: [ "Araştırma" ]
-tags: [ "tarih"]
+tags: [ "biyografi", "necip-fazıl", "şair", "düşünce"]
 previewpage: true
 
 # Book attributes

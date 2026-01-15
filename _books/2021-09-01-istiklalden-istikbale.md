@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725159.jpg
 categories: [ "Felsefe Düşünce" ]
-tags: [ "tarih"]
+tags: [ "deneme", "15-temmuz", "direniş", "millet"]
 previewpage: true
 
 # Book attributes

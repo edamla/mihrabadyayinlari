@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301917.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "93-harbi", "nene-hatun", "erzurum", "rus-savaşı"]
 previewpage: true
 
 # Book attributes

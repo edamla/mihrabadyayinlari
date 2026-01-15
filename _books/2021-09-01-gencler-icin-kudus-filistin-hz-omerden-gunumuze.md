@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057195302.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "kudüs", "filistin", "hz-ömer", "mescid-i-aksa"]
 previewpage: true
 featured: false
 

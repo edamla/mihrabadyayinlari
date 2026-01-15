@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056667800.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "osmanlı", "kuruluş", "osman-gazi", "kayı"]
 previewpage: true
 
 # Book attributes

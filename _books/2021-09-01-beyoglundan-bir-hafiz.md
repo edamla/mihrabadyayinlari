@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471611.jpg
 categories: [ "Din" ]
-tags: [ "tarih"]
+tags: [ "hatırat", "hafız", "istanbul", "musiki"]
 previewpage: true
 featured: true
 

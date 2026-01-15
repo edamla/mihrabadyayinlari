@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199156.jpg
 categories: [ "Araştırma" ]
-tags: [ "hatıra"]
+tags: [ "hatırat", "basın", "edebiyat", "babıali"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056725180.jpg
 categories: [ "Araştırma" ]
-tags: [ "biyografi"]
+tags: [ "biyografi", "ilim", "kütüphane", "osmanlı"]
 previewpage: true
 featured: true
 

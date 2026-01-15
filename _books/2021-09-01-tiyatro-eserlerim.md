@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846298.jpg
 categories: [ "Sanat" ]
-tags: [ "tarih"]
+tags: [ "tiyatro", "oyun", "sahne", "edebiyat"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056986581.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "endülüs", "kurtuba", "medeniyet", "ilim"]
 previewpage: true
 
 # Book attributes

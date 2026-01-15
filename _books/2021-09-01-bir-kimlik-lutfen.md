@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058301924.jpg
 categories: [ "Roman" ]
-tags: [ "tarih"]
+tags: [ "roman", "kimlik", "toplum", "arayış"]
 previewpage: true
 
 # Book attributes

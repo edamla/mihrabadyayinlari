@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786058199163.jpg
 categories: [ "Araştırma" ]
-tags: [ "tarih"]
+tags: [ "istihbarat", "osmanlı", "casusluk", "teşkilat"]
 previewpage: true
 
 # Book attributes

@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786056846274.jpg
 categories: [ "Tarih" ]
-tags: [ "tarih"]
+tags: [ "endülüs", "tarık-bin-ziyad", "fetih", "ispanya"]
 previewpage: true
 
 # Book attributes

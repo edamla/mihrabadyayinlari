@@ -6,7 +6,7 @@ illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
 image: assets/images/ean/9786057471642.jpg
 categories: [ "Araştırma" ]
-tags: [ "tarih"]
+tags: [ "uygur", "çin", "zulüm", "anı"]
 previewpage: true
 featured: true
 
