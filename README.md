@@ -44,8 +44,8 @@ Mihrabad Yayınları, kültür, sanat, tarih ve edebiyat alanlarında medeniyet 
 | **Lunr.js** | İstemci taraflı arama |
 | **Tiny Slider** | Carousel/Slider bileşeni |
 | **Plyr.js** | Ses oynatıcı |
-| **Font Awesome 5** | İkon kütüphanesi |
-| **Google Fonts (Lora)** | Tipografi |
+| **Font Awesome 5** | İkon kütüphanesi (lokal) |
+| **Lora Font** | Tipografi (lokal) |
 
 ---
 
@@ -61,7 +61,6 @@ mihrabadyayinlari/
 ├── _pages/            # Statik sayfalar
 ├── _persons/          # Şahsiyet profilleri (Kültür Mirası)
 ├── _posts/            # Blog yazıları
-├── _slides/           # Ana sayfa slider içerikleri
 ├── assets/
 │   ├── css/           # Stil dosyaları
 │   ├── images/        # Görseller
@@ -226,7 +225,15 @@ Ana renkler `assets/css/theme.css` dosyasında tanımlıdır:
 
 ### Slider Düzenleme
 
-`_slides/` klasöründeki dosyaları düzenleyerek ana sayfa slider'ını özelleştirebilirsiniz.
+`_data/slider.yml` dosyasını düzenleyerek ana sayfa slider'ını özelleştirebilirsiniz.
+
+```yaml
+- title: "Slide Başlığı"
+  img: "assets/images/slides/1.jpg"
+  mobile-img: "assets/images/slides/1m.jpg"
+  href: "kitaplar/"
+  target: ""
+```
 
 ---
 

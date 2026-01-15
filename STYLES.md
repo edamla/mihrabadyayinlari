@@ -70,6 +70,20 @@ Site iki farklı font ailesi kullanmaktadır:
 
 ```
 assets/font/
+├── fontawesome/           # Font Awesome 5.15.4 (lokal)
+│   ├── css/
+│   │   └── all.min.css
+│   └── webfonts/
+│       ├── fa-brands-400.woff2
+│       ├── fa-regular-400.woff2
+│       └── fa-solid-900.woff2
+│
+├── lora/                  # Lora font (lokal)
+│   ├── Lora-Regular.woff2
+│   ├── Lora-Italic.woff2
+│   ├── Lora-Bold.woff2
+│   └── style.css
+│
 ├── vogun/
 │   ├── Vogun-Medium.woff
 │   ├── Vogun-Medium.ttf
@@ -1153,14 +1167,23 @@ a, a:hover {
 
 ## 📊 CSS Dosya Yapısı
 
-| Dosya | Boyut | İçerik |
+| Dosya | Konum | İçerik |
 |-------|-------|--------|
-| `main.css` | ~10KB | Bootstrap özelleştirmeleri |
-| `theme.css` | ~8KB | Tema stilleri |
-| `tiny-slider.css` | ~3KB | Slider stilleri |
-| `buyout.css` | ~2KB | E-ticaret stilleri |
-| `music.css` | ~2KB | Müzik oynatıcı |
-| `plyr.css` | CDN | Video/Audio player |
+| `main.css` | `assets/css/` | Bootstrap özelleştirmeleri |
+| `theme.css` | `assets/css/` | Tema stilleri |
+| `tiny-slider.css` | `assets/css/` | Slider stilleri |
+| `buyout.css` | `assets/css/` | E-ticaret stilleri |
+| `music.css` | `assets/css/` | Müzik oynatıcı |
+| `plyr.css` | `assets/css/` | Video/Audio player (lokal) |
+
+### Font Dosyaları
+
+| Font | Konum | Açıklama |
+|------|-------|----------|
+| Font Awesome 5.15.4 | `assets/font/fontawesome/` | İkon kütüphanesi (lokal) |
+| Lora | `assets/font/lora/` | Google Fonts alternatifi (lokal) |
+| Vogun | `assets/font/vogun/` | Başlık fontu |
+| Minion Pro | `assets/font/minion-pro/` | İçerik fontu |
 
 ---
 
@@ -1190,7 +1213,8 @@ a, a:hover {
 Mihrabad Yayınları web sitesi, Bootstrap 4.6 temelinde özelleştirilmiş bir tasarım sistemi kullanmaktadır. Ana tasarım prensipleri:
 
 - **Tutarlı Renk Paleti**: Yeşil (#03a87c) ana renk, kırmızı (#ff0002) vurgu
-- **Serif Tipografi**: Başlıklarda Georgia, içerikte Lora
+- **Serif Tipografi**: Başlıklarda Vogun, içerikte Minion Pro/Lora
 - **Responsive Tasarım**: 6 farklı breakpoint ile tam uyumluluk
 - **Animasyonlar**: Yumuşak geçişler ve hover efektleri
 - **Modüler CSS**: Ayrı dosyalarda organize edilmiş stiller
+- **Bağımsız Fontlar**: Tüm fontlar (Font Awesome, Lora) lokal olarak barındırılmaktadır
