@@ -1,6 +1,6 @@
 ---
 layout: book
-title:  "Ben Osmanlıyım"
+title:  "Tarhin İzinde Ben Osmanlıyım"
 authors: ["murat-basaran"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]

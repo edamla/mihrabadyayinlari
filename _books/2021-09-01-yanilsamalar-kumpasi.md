@@ -1,6 +1,6 @@
 ---
 layout: book
-title:  "Yanılsamalar Kumpanyası"
+title:  "Yanılsamalar Kumpanyası Kış Bebeği"
 authors: ["murat-basaran"]
 illustrators: #["nur-dombayci","umit-ozturk"]
 translators: #["naci-turan","burak-dogru"]
